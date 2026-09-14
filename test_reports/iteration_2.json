@@ -1,0 +1,42 @@
+{
+  "summary": "Iteration #2 end-to-end test of Qlub LA Market Intelligence Dashboard (light-theme rewrite + new /api/outreach/generate). Backend: 9/9 pytest passing including the new outreach endpoint (subject+email+generated_at returned for Bestia with pain_points). Frontend: login screen with terminal boot + wrong-password error + correct-password app-shell, sidebar with all 5 nav items + logout + nav-pill-active, Overview (31K market-reach, 4 perf cards, la-density-map with 23 pins), ICP (6 attrs + persona + anti), Restaurant Expo (65 rows in TABLE, search 'Bestia' filters to 1, expo-total reflects filtered count, detail modal opens & closes, filter cards + export buttons present), Marketing Insights (3 sliders; moving insights-tables changed insights-recovery-goal $112,200→$179,520), Voice of Customer (sync-lock-chip toggles, voc-staged-banner appears ~20s after Gemini sync for Bestia, promote activates voc-generate-outreach-btn, outreach-modal renders subject+email+copy button, clicking outreach-copy-btn changes label to 'COPIED!'). ONE FUNCTIONAL BUG FOUND: navigator.clipboard.writeText() in VoiceOfCustomer.jsx copyEmail() lacks a .catch() — in iframe/preview context (and anywhere Clipboard API is blocked) it throws 'NotAllowedError: Write permission denied' as an unhandled promise rejection, which triggers the CRA runtime-error overlay and blocks ALL subsequent UI interactions (logout, nav clicks). UI state still updates to 'COPIED!' because setCopied runs synchronously, but the overlay is blocking.",
+  "backend_issues": {
+    "critical": [],
+    "minor": []
+  },
+  "frontend_issues": {
+    "ui_bugs": [
+      {
+        "component": "VoiceOfCustomer.jsx copyEmail()",
+        "issue": "navigator.clipboard.writeText() has no .catch(); rejects with 'NotAllowedError: Write permission denied' in iframe/preview context → unhandled promise rejection → CRA red error overlay blocks all subsequent clicks (logout nav, etc.). User sees 'Uncaught runtime errors' flash even though the button flips to 'COPIED!'.",
+        "selector": "[data-testid=\"outreach-copy-btn\"]",
+        "priority": "HIGH"
+      }
+    ],
+    "integration_issues": [],
+    "design_issues": []
+  },
+  "test_report_links": [
+    "/app/backend/tests/test_qlub_api.py",
+    "/app/test_reports/pytest/pytest_results.xml"
+  ],
+  "action_items": [
+    "Wrap navigator.clipboard.writeText() in VoiceOfCustomer.jsx copyEmail() with try/catch + fallback. Example:\n  const copyEmail = async () => {\n    if (!outreach) return;\n    const text = `${outreach.subject}\\n\\n${outreach.email}`;\n    try { await navigator.clipboard.writeText(text); }\n    catch { /* fallback: create hidden textarea, select, document.execCommand('copy') */ }\n    setCopied(true);\n    setTimeout(() => setCopied(false), 1600);\n  };\nThis will stop the CRA overlay from firing in the Emergent preview iframe and in any browser where Clipboard API is denied."
+  ],
+  "critical_code_review_comments": [
+    "Clipboard write is a permissioned async API — always wrap writeText calls in try/catch with a legacy fallback (hidden textarea + document.execCommand('copy')). Same pattern should be applied anywhere else we add copy-to-clipboard.",
+    "server.py is now 604 lines — approaching the 700-line split threshold. Consider moving VoC logic, Outreach logic, and LA dataset into separate modules (e.g., voc.py, outreach.py, data_la.py) before adding more endpoints.",
+    "Outreach endpoint uses the same retry cascade as VoC (gemini-2.5-flash → flash-lite → flash-latest) but duplicates the retry code block. DRY: extract a shared _call_gemini helper that both endpoints use.",
+    "RestaurantExpo.jsx table row has onClick on <motion.tr> — works with Playwright force-click, but for keyboard a11y add role='button' + tabIndex=0 + onKeyDown Enter/Space."
+  ],
+  "updated_files": [
+    "/app/backend/tests/test_qlub_api.py (added test_outreach_generate_bestia)"
+  ],
+  "success_rate": {"backend": "100% (9/9)", "frontend": "~95% — all flows work functionally; 1 bug (clipboard rejection blocks overlay)"},
+  "test_credentials": "Login password: qlub2026",
+  "seed_data_creation": "VoC sync for 'Bestia' + LA-wide default seeded /api/voice-of-customer/history via pytest run.",
+  "retest_needed": true,
+  "main_agent_can_self_test": true,
+  "context_for_next_testing_agent": "Backend pytest at /app/backend/tests/test_qlub_api.py now covers 9 endpoints incl. /api/outreach/generate. All data-testids confirmed present: login-screen, login-password-input, login-submit-button, login-error, app-shell, sidebar, nav-{overview|icp|expo|voc|insights}, logout-button, nav-pill-active class on active item; page-overview with market-reach-card (31K) + perf-target-velocity/perf-revenue-efficiency/perf-checkout-time/perf-checkout-friction + la-density-map (23 map-pin-*); page-icp with icp-attr-0..5 + icp-persona + icp-anti; page-expo with expo-search/expo-sync-btn/expo-scout-btn/expo-filter-{hood,cuisine,size}/expo-total/export-pdf-btn/export-xlsx-btn + 65 expo-row-<id> + expo-detail-modal/expo-detail-close; page-voc with voc-target-input/voc-run-sync-btn/sync-lock-chip/toggle-sync-lock-btn/voc-staged-banner/voc-promote-btn/voc-discard-btn/voc-generate-outreach-btn/outreach-modal/outreach-copy-btn; page-insights with insights-tables/insights-check/insights-delay/insights-recovery-goal. VoC sync for 'Bestia' completes in ~15-25s via Gemini grounding. Outreach generation ~8-15s. Observed sync-lock-chip initial label is 'BUFFER: LOCKED' (requires toggle-sync-lock-btn click to unlock before sync runs). Also tested: moving insights-tables slider via ArrowRight changes $112,200→$179,520.",
+  "rca of the issue": "Bug: Clipboard copy click fires CRA error overlay.\nReproduction: Login (qlub2026) → VoC → Execute Research on 'Bestia' (unlock first) → Promote → Generate Outreach → Copy Email.\nRoot cause: navigator.clipboard.writeText() in /app/frontend/src/pages/VoiceOfCustomer.jsx line 79 (function copyEmail, lines 77-82) returns a Promise. When the preview runs inside an iframe (Emergent preview, certain embed contexts) the browser denies Clipboard API write and rejects with NotAllowedError. No .catch() → unhandled rejection → CRA dev overlay appears. The overlay is a full-screen fixed element that intercepts all pointer events, so subsequent clicks (logout, nav) silently fail.\nMitigation: Change copyEmail to async and wrap writeText in try/catch with an execCommand('copy') fallback via a hidden textarea — see action_items for snippet. Optionally add a window.addEventListener('unhandledrejection', ...) guard in index.js to harden against any other missed rejections."
+}

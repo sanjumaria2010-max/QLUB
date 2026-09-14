@@ -1,0 +1,94 @@
+{
+  "restaurants": [
+    {
+      "id": "tacos-el-gavilan",
+      "name": "Tacos El Gavilan",
+      "neighborhood": "South LA",
+      "cuisine": "Taqueria"
+    },
+    {
+      "id": "leos-taco-truck",
+      "name": "Leo's Taco Truck",
+      "neighborhood": "Mid-Wilshire",
+      "cuisine": "Taco Truck"
+    },
+    {
+      "id": "mariscos-jalisco",
+      "name": "Mariscos Jalisco",
+      "neighborhood": "Boyle Heights",
+      "cuisine": "Mexican Seafood Truck"
+    },
+    {
+      "id": "el-flamin-taco",
+      "name": "El Flamin Taco",
+      "neighborhood": "Hollywood",
+      "cuisine": "Taco Stand"
+    },
+    {
+      "id": "tacos-y-birria-la-unica",
+      "name": "Tacos y Birria La Unica",
+      "neighborhood": "Cypress Park",
+      "cuisine": "Birria Stand"
+    },
+    {
+      "id": "grand-central-market",
+      "name": "Grand Central Market",
+      "neighborhood": "DTLA",
+      "cuisine": "Food Hall"
+    },
+    {
+      "id": "smorgasburg-la",
+      "name": "Smorgasburg LA",
+      "neighborhood": "Arts District",
+      "cuisine": "Pop-up Market"
+    },
+    {
+      "id": "langers-cash",
+      "name": "Langer's (cash-line)",
+      "neighborhood": "Westlake",
+      "cuisine": "Jewish Deli"
+    },
+    {
+      "id": "cole-pete-schwabs",
+      "name": "Cole's P.E. Buffet",
+      "neighborhood": "DTLA",
+      "cuisine": "Historic Bar"
+    },
+    {
+      "id": "philippe-original",
+      "name": "Philippe The Original",
+      "neighborhood": "Chinatown",
+      "cuisine": "French Dip (cash line)"
+    },
+    {
+      "id": "guisados-carts",
+      "name": "Guisados Carts",
+      "neighborhood": "Boyle Heights",
+      "cuisine": "Mobile Taqueria"
+    },
+    {
+      "id": "carnitas-el-momo",
+      "name": "Carnitas El Momo",
+      "neighborhood": "Boyle Heights",
+      "cuisine": "Carnitas Truck"
+    },
+    {
+      "id": "holbox-stand",
+      "name": "Holbox (Mercado walk-up)",
+      "neighborhood": "South LA",
+      "cuisine": "Seafood Stand"
+    },
+    {
+      "id": "sonoritas-prime-tacos",
+      "name": "Sonoritas Prime Tacos",
+      "neighborhood": "West LA",
+      "cuisine": "Taqueria"
+    },
+    {
+      "id": "kogi-truck",
+      "name": "Kogi BBQ Truck",
+      "neighborhood": "Mobile",
+      "cuisine": "Korean-Mexican Truck"
+    }
+  ]
+}

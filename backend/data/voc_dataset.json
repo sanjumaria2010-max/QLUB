@@ -1,0 +1,2628 @@
+{
+  "fetched_at": 1776924861,
+  "restaurants": [
+    {
+      "id": "bestia",
+      "name": "Bestia",
+      "neighborhood": "Arts District",
+      "cuisine": "Italian",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "billing",
+            "quote": "A 4% Kitchen Appreciation Fee and 20% tip? Eating out in DTLA is more expensive than ever. Overall, while we did certainly enjoy our meal, and the desserts were phenomenal, the price point was too much for us.",
+            "source": "The Global Adventures of MaiTai Tom and Tracy",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiKblVawQ0cDUWiBi6YB2WBfKvqharEl4M2FnU7VOpIcsDcm-wY0YAtAi0PY6bDfvSRIqcqNlQub4QSMFNOMD65ddOyywHoH4TibT_hKshjLTizWayMpWZsIaFV-2NG4CGPsU1kc9Hq4uYOUYUhgK3g38",
+            "date": "2017-09"
+          },
+          {
+            "issue": "billing",
+            "quote": "When it came time to pay the bill, I handed one of the managers 3 credit cards. When he returned to the table he had only two credit cards.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3VlNwcLJSWMIgQxMC42oWNo47mC2Kl-W9L4JDjhByS_lzPmXXgFhuRmZR9Iwvypm6TQ_CPw5dK7Wyj4CaHUN4FBTjKjDJD6oki4IaMrS4c7LnraMF5wHtatDglel3pfos8AbKAf0a1cH7r0yIrrKI-SLV4RaHdNVwv0E7h0qM4lfukim7dA==",
+            "date": "2024-03"
+          },
+          {
+            "issue": "billing",
+            "quote": "The manager offer NO apologies for their error. This exchange went on for 30 min.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3VlNwcLJSWMIgQxMC42oWNo47mC2Kl-W9L4JDjhByS_lzPmXXgFhuRmZR9Iwvypm6TQ_CPw5dK7Wyj4CaHUN4FBTjKjDJD6oki4IaMrS4c7LnraMF5wHtatDglel3pfos8AbKAf0a1cH7r0yIrrKI-SLV4RaHdNVwv0E7h0qM4lfukim7dA==",
+            "date": "2024-03"
+          },
+          {
+            "issue": "billing",
+            "quote": "The restaurant attempts to guilt-trip the customer by noting all the benefits employees get and that it can be removed by telling those employees you don't want to pay for it. I find this to be tacky.",
+            "source": "food.wada.travel",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuMMCfg7nHQF7M1P1aK1r79_X1u4ue3ABOw37WjNPjq6saIgXtbB3B2yxJ9iJ8p5zPQjx4Xw_Lb_U4LZdM99AgbrNT6M0VLl-AnHJQC12buQAkt-wdqajwtoMjl3CivEmbTtidJT9YahTLLGlfA9lg0_hk7oO5J4XbJoT1zdU34gBvKxI0hFs=",
+            "date": "2023-03"
+          }
+        ],
+        "notes": "No specific POS system was identified. Reviews highlight issues with a 'Kitchen Appreciation Fee' and a credit card handling incident.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": [
+          {
+            "title": "travelswithmaitaitom.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGiKblVawQ0cDUWiBi6YB2WBfKvqharEl4M2FnU7VOpIcsDcm-wY0YAtAi0PY6bDfvSRIqcqNlQub4QSMFNOMD65ddOyywHoH4TibT_hKshjLTizWayMpWZsIaFV-2NG4CGPsU1kc9Hq4uYOUYUhgK3g38="
+          },
+          {
+            "title": "reddit.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3VlNwcLJSWMIgQxMC42oWNo47mC2Kl-W9L4JDjhByS_lzPmXXgFhuRmZR9Iwvypm6TQ_CPw5dK7Wyj4CaHUN4FBTjKjDJD6oki4IaMrS4c7LnraMF5wHtatDglel3pfos8AbKAf0a1cH7r0yIrrKI-SLV4RaHdNVwv0E7h0qM4lfukim7dA=="
+          },
+          {
+            "title": "foodwadatravel.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHuMMCfg7nHQF7M1P1aK1r79_X1u4ue3ABOw37WjNPjq6saIgXtbB3B2yxJ9iJ8p5zPQjx4Xw_Lb_U4LZdM99AgbrNT6M0VLl-AnHJQC12buQAkt-wdqajwtoMjl3CivEmbTtidJT9YahTLLGlfA9lg0_hk7oO5J4XbJoT1zdU34gBvKxI0hFs="
+          }
+        ]
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "bavel",
+      "name": "Bavel",
+      "neighborhood": "Arts District",
+      "cuisine": "Middle Eastern",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "wait_time",
+            "quote": "we had a reservation for counter seating. didn't get sat for a full 30 mins after the res time.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVzt0ZskPJK8m4Z0lE4GGH4ByP86jPtNtNHJD59Qyegx4NhkI3r9lssDVthbViOryvcsD8mozMSySMnDS_DihKmN1SlN5jK2MZ3SpAnlTqpr7TsG_PWu8ryq2xOT-IqSL0yaInYOBHpaHJ4WiJeJXBwfwb0iW0X2quOFDvFsLpRJ99Y2_N_anP",
+            "date": "2023-05"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "Even with a reservation we had to wait an hour for a table for 4 people. That's just bad management.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHooXCnzeuGs6Fwby_o_OLyqJMnV2L0EglWF3EY6daXsaSGR0BJhB79zDdY-yR4kL8LYmuKpb0gWoT25LKjHETpciKOu5qRln4WKzaadU6Ltwo_cjkGg4xXOuMtLKElv9x4EBfpfsRyYfHJsNad33KYvaI45lzYnKvBCCSNcywrzxTwTLmaSqgmINz1sA==",
+            "date": "2023-09"
+          },
+          {
+            "issue": "billing",
+            "quote": "As with Bestia, Bavel has a 4% charge, which they say on the menu is \u201cadded to each guest check to ensure competitive industry compensation... If you would like this charge removed, please let our staff know.\u201d",
+            "source": "The Global Adventures of MaiTai Tom and Tracy",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGND9rPao1WuZNpoJKSGA_BXbeeHLScs3-Ql0iQPN4sJM9qgQqhzbdZjuhS3xIqIa_g167G2Em7gALv53SKFdGLolYPavrosPSVvH3RPk8G_yJNqvCSkI4opyaIe01JK7pPmlOM9KLgOZH5aBVfPTySOA==",
+            "date": "2019-09"
+          },
+          {
+            "issue": "billing",
+            "quote": "A 4 percent charge on each check supports health coverage and other benefits for full-time team members. The program is optional, and the charge will be removed upon customer request.",
+            "source": "Bavel",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELe0aM5rUCKPK011tnMGx-FVUADVwBIUQOhoJWgVsI5Pbmg05L8cclYzbhxQk5wjzUgxkVkJPvL7Euux0LJr_jCssYLtWgasBBjTfLQmddqcYBaUQiq0Hu1yIV0S9fAEW0rOQQbNaik27V6zELxt9lVEIeRgQ=",
+            "date": "2023"
+          },
+          {
+            "issue": "billing",
+            "quote": "the waiter clearly was just trying to rack up the bill.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.google.com/grounding-api-redirect/AUZIYQGVzt0ZskPJK8m4Z0lE4GGH4ByP86jPtNtNHJD59Qyegx4NhkI3r9lssDVthbViOryvcsD8mozMSySMnDS_DihKmN1SlN5jK2MZ3SpAnlTqpr7TsG_PWu8ryq2xOT-IqSL0yaInYOBHpaHJ4WiJeJXBwfwb0iW0X2quOFDvFsLpRJ99Y2_N_anP",
+            "date": "2023-05"
+          },
+          {
+            "issue": "billing",
+            "quote": "We got scolded for ordering too much hummus and not enough of the expensive entrees.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHooXCnzeuGs6Fwby_o_OLyqJMnV2L0EglWF3EY6daXsaSGR0BJhB79zDdY-yR4kL8LYmuKpb0gWoT25LKjHETpciKOu5qRln4WKzaadU6Ltwo_cjkGg4xXOuMtLKElv9x4EBfpfsRyYfHJsNad33KYvaI45lzYnKvBCCSNcywrzxTwTLmaSqgmINz1sA==",
+            "date": "2023-09"
+          },
+          {
+            "issue": "billing",
+            "quote": "I keep coming back because there definitely are some absolute banger dishes... but every time I've gone the waiters are incredibly pushy on certain dishes.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHooXCnzeuGs6Fwby_o_OLyqJMnV2L0EglWF3EY6daXsaSGR0BJhB79zDdY-yR4kL8LYmuKpb0gWoT25LKjHETpciKOu5qRln4WKzaadU6Ltwo_cjkGg4xXOuMtLKElv9x4EBfpfsRyYfHJsNad33KYvaI45lzYnKvBCCSNcywrzxTwTLmaSqgmINz1sA==",
+            "date": "2023-09"
+          }
+        ],
+        "notes": "No specific POS system was identified for Bavel. Reviews indicate occasional long wait times for reservations and consistent feedback regarding pushy upselling tactics by waiters, in addition to a clearly stated optional 4% service charge.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "republique",
+      "name": "R\u00e9publique",
+      "neighborhood": "Mid-Wilshire",
+      "cuisine": "French",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "billing",
+            "quote": "I should mention that they add 4% charge to the bill to pay for the staff medical coverage; a charge I do not mind paying.",
+            "source": "Food blogger",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEC7HAc8eqfl2qge1HYZ7MXZLzgm1sxThq0Yo-qTVXnIAKb5DPUYntu8y3_FOS9zXIdXdFxFodG5lH_bkjh5unD8aAsf_MR2NOcio-debE2mTCI4J3aNuD-zWRY1x9v21acKGAAcda3xdojYfbW31Kb4WJjoe64csEb16cnODVPiuxA71iiFYc=",
+            "date": "2026-01"
+          },
+          {
+            "issue": "billing",
+            "quote": "There has been a lot of press lately about the 3% Obamacare surcharge added to all patrons' checks at LA's hot new French restaurant, Republique.",
+            "source": "Consuming LA",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_O_9oQTuql2AMx1sbxgS8fsHQT4EnT_qnb5TInWQloHVDgukwDhD37Y00i7lIy9Ctn79yJNNT7U3ODMNyq5iDP20S6rS7nmDAii-6TjqiVYhmedb-hDI3KJ_Vvd58J-PgpJLp0ga4N7Ozo31S",
+            "date": "2014-03"
+          },
+          {
+            "issue": "tipping",
+            "quote": "for those diners who find the surcharge objectionable, the restaurant recommends deducting it from the gratuity.",
+            "source": "Consuming LA",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_O_9oQTuql2AMx1sbxgS8fsHQT4EnT_qnb5TInWQloHVDgukwDhD37Y00i7lIy9Ctn79yJNNT7U3ODMNyq5iDP20S6rS7nmDAii-6TjqiVYhmedb-hDI3KJ_Vvd58J-PgpJLp0ga4N7Ozo31S",
+            "date": "2014-03"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "We came by on a sunny Saturday morning and the wait was about 40 minutes.",
+            "source": "PURPLECHIVES",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-HU5NYRm27dgQXuz7JY0TsL7IFP2goXd4IXlqsSYH43CEC5DNV2N7LjrFJ1bq9os-QUgjXjQ2AQnw4zfFIUJ1RSzAo2bIeGvNaxAfI5HTG-crp6WJ-6YbATXpsSda6QtWMSG9aS9heuvnkV6cBnF_tioJuYnLUrYqVvw_34gGqzwc6lQTmWn9sWQZZGdi1034pXLfehNz7-bt",
+            "date": "2022-12"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "You wait in line for 30 minutes surrounded by boring self-absorbed twits only to be delivered the most basic meal that I could easily have made myself, just infinitely better.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4F5nR1VgvorVq4LjuyH2rLKZbkdXXJ1d4PXs8IJ4cstvogsfUwZ3ZI0sUu62c0ZUKY7JhOas_XawaXWKnKZkFFjB23R-Ovo7fOrPNEhtjWeUJBH9vR2GODGIJSQ0U_J6X5BETE8AMyeferkofavn58sJwRGtmVGJbQU32JmFWm9XY_uA=",
+            "date": "2023-03"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "Brunch is counter service (order at the counter, get a number, they bring it to the table you find), so they only do reservations for dinner. In my experience it's never all that bad a wait, like 20-30 minutes at the longest unless it's a particularly busy day.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCtbnHHfyZgBxzAwY_rLl88cSDGgufQoZ43YHbaJEOjvn1EPHof8HzNwrjKwkq8fompajn0PzCVV93bwq-yC1f32U2CFufRGcEd4Yr6MsZ4LEHzgzfOXVOoKbklux9fwIGZSl_2nbKpC0BCBxNx45AAwMOsbiHd3R3HQmDJL_K6w_feCFV1ToJGHNgtego0WsxLI2LtuA=",
+            "date": "2023-01"
+          }
+        ],
+        "notes": "No specific POS system was identified for R\u00e9publique. Reviews consistently mention a healthcare surcharge and varying wait times for brunch service.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": [
+          {
+            "title": "ijustwanttoeat.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEC7HAc8eqfl2qge1HYZ7MXZLzgm1sxThq0Yo-qTVXnIAKb5DPUYntu8y3_FOS9zXIdXdFxFodG5lH_bkjh5unD8aAsf_MR2NOcio-debE2mTCI4J3aNuD-zWRY1x9v21acKGAAcda3xdojYfbW31Kb4WJjoe64csEb16cnODVPiuxA71iiFYc="
+          },
+          {
+            "title": "consumingla.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_O_9oQTuql2AMx1sbxgS8fsHQT4EnT_qnb5TInWQloHVDgukwDhD37Y00i7lIy9Ctn79yJNNT7U3ODMNyq5iDP20S6rS7nmDAii-6TjqiVYhmedb-hDI3KJ_Vvd58J-PgpJLp0ga4N7Ozo31S"
+          },
+          {
+            "title": "purplechives.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-HU5NYRm27dgQXuz7JY0TsL7IFP2goXd4IXlqsSYH43CEC5DNV2N7LjrFJ1bq9os-QUgjXjQ2AQnw4zfFIUJ1RSzAo2bIeGvNaxAfI5HTG-crp6WJ-6YbATXpsSda6QtWMSG9aS9heuvnkV6cBnF_tioJuYnLUrYqVvw_34gGqzwc6lQTmWn9sWQZZGdi1034pXLfehNz7-bt"
+          },
+          {
+            "title": "reddit.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4F5nR1VgvorVq4LjuyH2rLKZbkdXXJ1d4PXs8IJ4cstvogsfUwZ3ZI0sUu62c0ZUKY7JhOas_XawaXWKnKZkFFjB23R-Ovo7fOrPNEhtjWeUJBH9vR2GODGIJSQ0U_J6X5BETE8AMyeferkofavn58sJwRGtmVGJbQU32JmFWm9XY_uA="
+          },
+          {
+            "title": "reddit.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCtbnHHfyZgBxzAwY_rLl88cSDGgufQoZ43YHbaJEOjvn1EPHof8HzNwrjKwkq8fompajn0PzCVV93bwq-yC1f32U2CFufRGcEd4Yr6MsZ4LEHzgzfOXVOoKbklux9fwIGZSl_2nbKpC0BCBxNx45AAwMOsbiHd3R3HQmDJdK-6w_feCFV1ToJGHNgtego0WsxLI2LtuA="
+          }
+        ]
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "felix-trattoria",
+      "name": "Felix Trattoria",
+      "neighborhood": "Venice",
+      "cuisine": "Italian",
+      "data": {
+        "pos": {
+          "system": "Toast",
+          "confidence": "high",
+          "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEuv2MyRcXHdzV0_-u1q0_wBuPZW2S0fw6SOZ57LXrzrmCU0HKxucWc98FO6-SECGB4VfnnyKPf7gZI1KIIE88EsoUtRv_q1YqhBsM0DzoRhKmZtv7UGRTVXxZdswfWpZ1_anLR7EH-12r3UmlmVGRCRK0woErZ7KpYSyCSB3GwZJ9p5Q==",
+          "evidence_quote": "Experience with Toast or similar POS."
+        },
+        "reviews": [
+          {
+            "issue": "wait_time",
+            "quote": "I'm not sure if they had forgotten about us but people who had reservations after us were finished and leaving before we had our pasta.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3s8Z-Bp4ochnKGG-31d6nNRdrzF9CzdIW_c8EL9M1jsTeZ5mZhLi5GW9dkIhmA0DRJixTnW7MqgG8Qrzv6xTrDk0M1n0jjETt1qz2V5JrgGpo1xVZ3uxqqOmuTNATWWOnO_7OcncNX2hDkHAnXj0BdgmSEjyGl0g8hgJR423dUE6UeJpz8E2yEvbFWg==",
+            "date": "2022-02"
+          },
+          {
+            "issue": "billing",
+            "quote": "When considering the food and drinks with an over $200+ bill? Absolutely not.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3s8Z-Bp4ochnKGG-31d6nNRdrzF9CzdIW_c8EL9M1jsTeZ5mZhLi5GW9dkIhmA0DRJixTnW7MqgG8Qrzv6xTrDk0M1n0jjETt1qz2V5JrgGpo1xVZ3uxqqOmuTNATWWOnO_7OcncNX2hDkHAnXj0BdgmSEjyGl0g8hgJR423dUE6UeJpz8E2yEvbFWg==",
+            "date": "2022-02"
+          },
+          {
+            "issue": "billing",
+            "quote": "Add to that the punishment of a $375 check (for two with one bottle of wine) and I was left feeling very underwhelmed.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEj23CbuaAFyzYV6Jig5yLT649Tj-c5MkINxd2kbOhCSMvJ69Pv33Jto_6ML3k_hxjGe6hzvC8BRC8A7fe1X8CMUy5ToBJycc_it3yeT6VzQYL-mm2agUumj_Vq4WMJMO77GCyfYyLOp0_3q8Zv_oxfGyDrQ7xbwozFd9RmKydYnVSr9fD5r2ZLJs6mwBYLA3I==",
+            "date": "2024-03"
+          }
+        ],
+        "notes": "Found strong evidence for Toast POS system and several reviews related to wait times and high billing, but no specific mentions of POS system crashes, tipping issues, or incorrect charges.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "gjelina",
+      "name": "Gjelina",
+      "neighborhood": "Venice",
+      "cuisine": "New American",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "tipping",
+            "quote": "a 20% service gratuity is automatically appended to the check.",
+            "source": "Las Vegas Weekly",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFV4CcO17lsENxRwevudMKIwqowC9motxq6gNwPNXi6oNustXekRU-gedWGXAbaIUWGxCLAj5VX7UCz5Bl1x2nTfcH2urcMPHZGyJKEPox_wiB085BAWxfmeS2ezHOoJCDdjtfqkBNyLylAd4DgLpzvbv8e3EKXSLX8XjBRzCLfFD7KHKh119cARkzShHYMkSPr402HGEo",
+            "date": "2025-03"
+          },
+          {
+            "issue": "billing",
+            "quote": "And they automatically add 20% gratuity to your bill... But when it's added for you, on top of the already-stingy dining experience? Not a great look.",
+            "source": "An Omnivore Abroad",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgn2KCbAEhV3L3pUmt1YfEQhPBL6UuO7gjOxKPWdZINHaW9RFHCMjV8mY18ozGtxrlX5XcBlKWCh4dKEIhiOp4WEd8B2zI32L8nI6wBnq80m0dAIWlqwVWw0XB2jgqE1Pld2geqAtSTis=",
+            "date": "2020-02"
+          },
+          {
+            "issue": "tipping",
+            "quote": "the gratuitity is all included in the bill so it's like a 20% auto gratuitity... I noticed in a lot of the reviews they were saying that the service is kind of iffy because of that potentially.",
+            "source": "YouTube",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg6PxhvW4csNqYsNXcRA36pYsgVtFmTncZWrIG57OR5aYeZwKtl9dPIbIDsION5jN3NL7L24l2Hj5Ct0OIjDxcjDxM6Ha6UGy6A2TCzgBxNf9HN5_u0JjgPk6QPxt3pm6N0A2QLmI=",
+            "date": "2025-11"
+          },
+          {
+            "issue": "billing",
+            "quote": "The only iffy situation, is the 20% mandated service fee\u2026which is kind of ridiculous!",
+            "source": "Klaas In Session",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHv-l2WSdmwIYFPSsCQul4u0j6R17m8L9k_2l8phLPauMq6ZxZqC587nwqDgGauAmeOtFXd4cEkMkqj-ywT6BKFG7m3fUhimheAU7a9la6xUY_OIKHI_3JaAuT6XwhyTATy76L4VhrY6AWE4LQWEWYbBCxW_1qNgD_wi-0mads91LncOTYrIg6506sJkbc=",
+            "date": "2019-10"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "it does get really packed though so I highly recommend on weekends there's going to be a long wait so highly recommend a resi if you're plan on coming",
+            "source": "YouTube",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHg6PxhvW4csNqYsNXcRA36pYsgVtFmTncZWrIG57OR5aYeZwKtl9dPIbIDsION5jN3NL7L24l2Hj5Ct0OIjDxcjDxM6Ha6UGy6A2TCzgBxNf9HN5_u0JjgPk6QPxt3pm6N0A2QLmI=",
+            "date": "2025-11"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "As we approached the restaurant, the first thing we saw was a long line of people without reservations, so getting our table early wasn't really an option.",
+            "source": "Mitzie Mee",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2DaWRAtttbUjbNszRTzBIyn_II-fFpdVASOyxPXoCGQUtmSPjAPJWdh6ZzhLQeUCuq_qFYRF6bUt-TnVKZUae45ErZThEuisTyqGSF2pIPKMCZxVTdPQrc9iP3yWFMP2r3Ct2QemWwWlHaMi2HmMwIg==",
+            "date": "2017-04"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "If, at the spur of the moment, you covet a table... you may be out of luck. Get yourself a reservation. And if you want a spot at the communal table, you'll most likely have to wait.",
+            "source": "Los Angeles Times",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH87d7WM9_xfyNwoFQonuLQrGXaN3jsIRH3KS5Jk4BnUTtp0vUc8A2igpL7ndCOWKhguq_3RvRVjyeL8DBuUGYdriSG4kxxp9zAnKuia8jh_gmZ-NgtDygXWnhm0A93YvNMd7qM-IRIKsJJwbvTRR725YNIA5PEd2jz1YY=",
+            "date": "2008-10"
+          }
+        ],
+        "notes": "No specific POS system was identified. Reviews frequently mention automatic gratuity and long wait times, especially without reservations.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "providence",
+      "name": "Providence",
+      "neighborhood": "Hollywood",
+      "cuisine": "Seafood",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "wait_time",
+            "quote": "I'm just curious how long the dining experience will be. There will be two of us and I've read that dinner can take up to 4-5 hours. Is that right cuz holy cow, that's long!",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWgnUuPNbitCvai56WL2r4rfKk7x1QT7gidC5Djinn_eb_KicS6Bcfod96jxujVayKqr_8IPlxpbhKOQ3Q5qgUFHwdeyCcn5h1qB2V8VrB5Bb8I1ndM_W1WdtmmelZIhz0xlaYuSdz6wiQGCAx6kEzSP-1cIyrup6Hv4YPFqA",
+            "date": "2025-08"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "Just went last week and for us it was 830 to 1130, with the full menu and all the supplements.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWgnUuPNbitCvai56WL2r4rfKk7x1QT7gidC5Djinn_eb_KicS6Bcfod96jxujVayKqr_8IPlxpbhKOQ3Q5qgUFHwdeyCcn5h1qB2V8VrB5Bb8I1ndM_W1WdtmmelZIhz0xlaYuSdz6wiQGCAx6kEzSP-1cIyrup6Hv4YPFqA",
+            "date": "2025-08"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "4 hours, group of 5 with a couple of drinks for each and 2 supplements. No after dinner drinks. Longest meal of my life and it was worth it.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWgnUuPNbitCvai56WL2r4rfKk7x1QT7gidC5Djinn_eb_KicS6Bcfod96jxujVayKqr_8IPlxpbhKOQ3Q5qgUFHwdeyCcn5h1qB2V8VrB5Bb8I1ndM_W1WdtmmelZIhz0xlaYuSdz6wiQGCAx6kEzSP-1cIyrup6Hv4YPFqA",
+            "date": "2025-08"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "Pacing felt fine, maybe a little bit slow in some places but never rushed.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEou27FzHkZoUbD7UdJlBrMGZpzx8fDibByWlffavUUOsfXMMTrhNgCdSY7_yDFlpjXnE0-InmITBWgu2G0IS-R5sbHsKLms-lAp543z8I57-gTwpNTs7pVzc9yz8EMqN0cRZ5Y5JEQmVJCsicprQpg4lUcV-geJK7JH6QJbqszxQZWBeg4WJ3g3lM",
+            "date": "2024-05"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "We were a little early for our reservation and were immediately seated in the lounge for drinks, though we weren't seated at our table until 10 or 15 past our reservation time.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEou27FzHkZoUbD7UdJlBrMGZpzx8fDibByWlffavUUOsfXMMTrhNgCdSY7_yDFlpjXnE0-InmITBWgu2G0IS-R5sbHsKLms-lAp543z8I57-gTwpNTs7pVzc9yz8EMqN0cRZ5Y5JEQmVJCsicprQpg4lUcV-geJK7JH6QJbqszxQZWBeg4WJ3g3lM",
+            "date": "2024-05"
+          }
+        ],
+        "notes": "No specific POS system was identified. Several reviews mention long dining experiences, with some noting minor delays in seating or pacing.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "mother-wolf",
+      "name": "Mother Wolf",
+      "neighborhood": "Hollywood",
+      "cuisine": "Italian",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "wait_time",
+            "quote": "What I am opposed to is having to wait 40 minutes to be seated after showing up on time.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoy-noh9Iri3-YnrelWEyfZ5fE6YkMj20cVDIIJjVpWVuy7aaaLmWfzDd3ddUSuZybeT39z5jCRxuEzzpMMDWciLshMALk4Wb4m9Lyq8uhOZQvfgWVRAHRF-hBLe6KPBHnQESI1djkrLKQXDZ18rPatnIhq9dGLOpOLpGMKvTP2Tg5eA4spcsB7n2dkFXuad47ta-XClZh",
+            "date": "2022-06"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "It took ages to get anything except for drinks. ... Now its been an hour and 20 minutes since we arrived and we finally get our first appetizer.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoy-noh9Iri3-YnrelWEyfZ5fE6YkMj20cVDIIJjVpWVuy7aaaLmWfzDd3ddUSuZybeT39z5jCRxuEzzpMMDWciLshMALk4Wb4m9Lyq8uhOZQvfgWVRAHRF-hBLe6KPBHnQESI1djkrLKQXDZ18rPatnIhq9dGLOpOLpGMKvTP2Tg5eA4spcsB7n2dkFXuad47ta-XClZh",
+            "date": "2022-06"
+          },
+          {
+            "issue": "billing",
+            "quote": "Finally when we receive the bill we realize that they had opened 2 bottles of the wrong wine which was $270 per bottle (we had ordered $80 bottles of a similar wine).",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoy-noh9Iri3-YnrelWEyfZ5fE6YkMj20cVDIIJjVpWVuy7aaaLmWfzDd3ddUSuZybeT39z5jCRxuEzzpMMDWciLshMALk4Wb4m9Lyq8uhOZQvfgWVRAHRF-hBLe6KPBHnQESI1djkrLKQXDZ18rPatnIhq9dGLOpOLpGMKvTP2Tg5eA4spcsB7n2dkFXuad47ta-XClZh",
+            "date": "2022-06"
+          },
+          {
+            "issue": "billing",
+            "quote": "We did not although they put them on the check even after we told them that they had served us the wrong wine. The point stands that they charged us for them.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoy-noh9Iri3-YnrelWEyfZ5fE6YkMj20cVDIIJjVpWVuy7aaaLmWfzDd3ddUSuZybeT395jCRxuEzzpMMDWciLshMALk4Wb4m9Lyq8uhOZQvfgWVRAHRF-hBLe6KPBHnQESI1djkrLKQXDZ18rPatnIhq9dGLOpOLpGMKvTP2Tg5eA4spcsB7n2dkFXuad47ta-XClZh",
+            "date": "2022-06"
+          }
+        ],
+        "notes": "Found no specific information about the POS system used for in-restaurant transactions. Found reviews mentioning long wait times and incorrect wine charges on the bill.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "horses",
+      "name": "Horses",
+      "neighborhood": "Hollywood",
+      "cuisine": "New American",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "wait_time",
+            "quote": "Getting a reservation here can be notoriously tricky, so planning ahead is...",
+            "source": "Lemon8",
+            "source_url": "https://www.lemon8-app.com/horses-restaurant-los-angeles/6705526047501385733",
+            "date": "2023"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "There were hardly any reservations available at what Resy in September called \u201cthe hottest table in Hollywood\u201d, and the restaurant was busy.",
+            "source": "The Guardian",
+            "source_url": "https://www.theguardian.com/lifeandstyle/2023/may/20/horses-restaurant-hollywood-domestic-abuse-claims",
+            "date": "2023"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "How quickly do they get snapped up? WA: All of the prime tables go really quick. But then sometimes there are remaining 10 p.m. [reservations], even a week out there are usually a couple of 10 p.m.s.",
+            "source": "Resy",
+            "source_url": "https://resy.com/cities/la/horses?date=2022-09-19&seats=2",
+            "date": "2022"
+          },
+          {
+            "issue": "billing",
+            "quote": "Anonymous sources have mentioned there are allegations of bounced checks dating back to the summer that continue through the temporary closure.",
+            "source": "L.A. Taco",
+            "source_url": "https://www.lataco.com/horses-restaurant-shuts-down/",
+            "date": "2026"
+          },
+          {
+            "issue": "billing",
+            "quote": "Over this past year, a lot of us have had checks bounce. My checks would be held for insufficient funds all of the time.",
+            "source": "Grub Street",
+            "source_url": "https://grubstreet.com/2026/01/what-really-happened-to-horses-restaurant.html",
+            "date": "2026"
+          },
+          {
+            "issue": "billing",
+            "quote": "According to state documents, California filed tax liens against the restaurant's parent company, Horses Holdings LLC, in December. The two liens \u2014 one filed Dec.",
+            "source": "LA Times",
+            "source_url": "https://www.latimes.com/entertainment-arts/business/story/2026-01-06/horses-restaurant-closes-indefinitely-hollywood-scandal-tax-liens",
+            "date": "2026"
+          }
+        ],
+        "notes": "The restaurant has closed indefinitely due to structural issues and financial difficulties, with no POS system information available.",
+        "_model": "gemini-2.5-flash-lite",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "majordomo",
+      "name": "Majordomo",
+      "neighborhood": "Chinatown",
+      "cuisine": "Asian American",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [],
+        "notes": "No explicit mention of Majordomo's POS system was found. No reviews directly addressing POS issues, wait times for billing/checks, billing errors, or tipping issues were found in the provided search results.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "kato",
+      "name": "Kato",
+      "neighborhood": "DTLA",
+      "cuisine": "Taiwanese",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "wait_time",
+            "quote": "The pacing was another issue. There were almost 30 minutes between some dishes (I checked my photo timestamps), and sometimes the drink pairing came way before the dish (up to 15 minutes early).",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkqwuenILdL9n1ptt3IVPoAujHkllONiOJjw1LpX8B0nGpG5pq87sJz4X_6cP02ylkuAvrylYYiispYjN3PTvWSwLw00IiqhzaJ8jD9kIKmQXfCjPqTTvQu-c2cu0_YMOO83gu-hUWjMgwGFVwSmrT11hQTvHR7jgnhGpkXwPn_OBJZtQXXy3ZTfg=",
+            "date": "2025-07"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "We saw another table that was seated later than us, and they got their earlier courses (even with an extra dish) much faster than us, until they \"caught up\" and we started getting our later courses at the same time.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHkqwuenILdL9n1ptt3IVPoAujHkllONiOJjw1LpX8B0nGpG5pq87sJz4X_6cP02ylkuAvrylYYiispYjN3PTvWSwLw00IiqhzaJ8jD9kIKmQXfCjPqTTvQu-c2cu0_YMOO83gu-hUWjMgwGFVwSmrT11hQTvHR7jgnhGpkXwPn_OBJZtQXXy3ZTfg=",
+            "date": "2025-07"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "The service there is the only poor part of the restaurant imo. I just remember sitting there for 45 minutes at the start with no food among other issues.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6Y6F8ZN7mjRW4XmyF42ReXMaeIWZrf_He1r48E8DVHOpjFqYT4ISzxGO-tojI-IALrSFyAO3tTxr90VCi18WA760gbRbAOEv614SL41Ff6PbTu4RJv5LtPSDYyDR5yw4vwqqixgQYGlZzhSyr3FXBtKpLjzVD2SENepmxVgA7OUEa",
+            "date": "2025-06"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "It was a spicy dish with an earthy, red date hot drink (which was served almost 15 mins before the actual dish\u2026).",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoiHxLjdzB99ZFU25B-FF8Ccpy4yG7ikcdLWii-0W5brCFT3HyxG-rBMfFZL5Q8YVA2OESjCwbecj94Qzy3vPLFhmV5_jmYSip2ODgMKltNn8EAUogSmDRWK6ehr6tD5PqbSWVF20Czoky0KjBdpx_UUwe4zavL-HZ_l3Sj_yRcZKwuASNQjEghd33J_j5ct1ybyuAky6CkdFedw==",
+            "date": "2026-01"
+          },
+          {
+            "issue": "billing",
+            "quote": "The bill showed an 18% service charge added to the cost of the food and drink, and also had a separate line for the tip.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUN29sNbiarY6ClaQdCwT7EaFZ6D0xt5hStbO9IYEjs_bZ2ePC2eP-ofZ9gxm-Vmf5uoUg5W6pNUd7Mq2yriH1GwC7DjJVKnqNc_PmRMP1smq6Qq0P-2hMNFwjk81eCgKezhIbRKLjYZtn5cMnVMl3jZ-5WABSRN_iv6vd4rsF-aC4ZHizjutHG_bdRk0E13HgKLCPhHmLrIV7zg==",
+            "date": "2023-07"
+          },
+          {
+            "issue": "billing",
+            "quote": "Also they had some weird issues with the reservation, I had originally booked the bar menu but they called me one week out to say it was a reservation mistake and they only have the dining room menu available but would offer it at the same price as the bar menu. When the bill came it was for the full dining menu...",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEpQZ_LW9-xqWC9hWrL3Z6G9dLBLOtx7MO_n6Sqr2B04fIKYzuVQAbX1DabmPtrl5vwat_Vx4kVkccNOIympVr6qmNmgYoTym1deP3t4bwgzdeRxB6jcsngnLfN4vQJjc0ehnxxh0KuIjPUYTcilC9CWbKqGXm8Kjgr7zov_u1vAsfoW9oNL9s7izWD",
+            "date": "2024-08"
+          },
+          {
+            "issue": "billing",
+            "quote": "and also the non alc pairing online said it was $55 but in store they charged $70.. for four drinks (this also had 2 $10 supplemental drinks).",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFoiHxLjdzB99ZFU25B-FF8Ccpy4yG7ikcdLWii-0W5brCFT3HyxG-rBMfFZL5Q8YVA2OESjCwbecj94Qzy3vPLFhmV5_jmYSip2ODgMKltNn8EAUogSmDRWK6ehr6tF5PqbSWVF20Czoky0KjBdpx_UUwe4zavL-HZ_l3Sj_yRcZKwuASNQjEghd33J_j5ct1ybyuAky6CkdFedw==",
+            "date": "2026-01"
+          },
+          {
+            "issue": "tipping",
+            "quote": "I tipped $0 because of the 18% service charge (even though the service was stellar).",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGUN29sNbiarY6ClaQdCwT7EaFZ6D0xt5hStbO9IYEjs_bZ2ePC2eP-ofZ9gxm-Vmf5uoUg5W6pNUd7Mq2yriH1GwC7DjJVKnqNc_PmRMP1smq6Qq0P-2hMNFwjk81eCgKezhIbRKLjYZtn5cMnVMl3jZ-5WABSRN_iv6vd4rsF-aC4ZHizjutHG_bdRk0E13HgKLCPhHmLrIV7zg==",
+            "date": "2023-07"
+          }
+        ],
+        "notes": "No specific POS system was identified for Kato DTLA. Reviews frequently mention issues with pacing, service consistency, and confusion regarding service charges and additional tipping.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "spago",
+      "name": "Spago",
+      "neighborhood": "Beverly Hills",
+      "cuisine": "California",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "billing",
+            "quote": "Misleading pricing: Lobster farfalle pastas listed at $46. Waitress then asks \"would you like the appetizer or entree size?\". Bill comes for \"1 1/2\" pasta for $69. Same thing for short rib gnocchi; 2 pastas for $88 instead came on bill as \" 3 gnocci\" for $132. Never any mention of different pricing.",
+            "source": "The Knot",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFy5m30JiQ_u1QCcc6OdbJOX4dVUmWe6G9D9Ozac1Ft08-UmJW8wr2v0W8F4FqhmSS2VRvn9-h8BEP5H_2B3rXGdxYlMzNL7k6_-tVx3yXbobe4MJWbXS_4iul0t5Ie7w2unV_psXw0V7Ms799H6TLEagO_ybiCegLUrnBYvlXAPlJc3XErXjibnGc=",
+            "date": "2026-01"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "The purgatorial seating has a psychological effect on the service. They forget us often.",
+            "source": "Los Angeles Times",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGl4sIiEu-1url-DSHGKqK9kmsTwhTVabADUr-UkTYoeSoIrklP1N7k4EfrsfK_Ia9KZfUPfSDbaAd54BxRV4Y3N3HHEI91QODrkIXJY32bLIh0_DO3WqHxqzbIiBnty72ufnnmV6sdGydpahiPGJtVJ4_A3-QuaeDZdvXYyINNDEIJDciG1UG6fM4fyfwkN_kv8MhdnzJI9w==",
+            "date": "2019-06"
+          }
+        ],
+        "notes": "No specific POS system was identified through the search. Two relevant reviews were found concerning billing discrepancies and service issues that could impact wait times.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "nobu-malibu",
+      "name": "Nobu Malibu",
+      "neighborhood": "Malibu",
+      "cuisine": "Japanese",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "wait_time",
+            "quote": "The Reality of '5 Minutes' at Nobu: Trendy Wait Time Humor. I recently experienced Nobu's legendary '5 minutes' wait firsthand, and it's exactly as humorous and relatable as the trend suggests. Despite the restaurant's promise of a quick table turnover, the wait often stretches well beyond five minutes...",
+            "source": "Lemon8",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFifFtuWak7yZqX6l3BioA6llBfVL1CM9xDagfTCgcPt3SarAEWIaIZjJAGM14SbAc47r85o-htA03IpO3YEYFnLzY92sB_urqVYo5bAHteG91YU7Io8N6qd5by31IWhmDFwT8DN1qAX3SVtE9lTyMAjeHLb1uGmzVpnQ==",
+            "date": "2023-04"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "Just prepare for a bit of a wait, as it can get bustling!",
+            "source": "Lemon8",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLpbwv4c84l9NxcRJmpe4oVifGnlsNnrQ-itj7L5CvWtb1v9cYtpo7fyyocDS1lciZAmLSn7fMAYio4Uh31jjwM2TS5RmQHJ0NOCifefhizJghHzCmA1sC34IowmlCEFICRhjSOBLQo9kzpo50XOdkfPxqnZSqgShaYQmWlg==",
+            "date": "2023-08"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "The service was attentive, albeit a bit slow during peak hours, but the laid-back vibe only added to the experience.",
+            "source": "Lemon8",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLpbwv4c84l9NxcRJmpe4oVifGnlsNnrQ-itj7L5CvWtb1v9cYtpo7fyyocDS1lciZAmLSn7fMAYio4Uh31jjwM2TS5RmQHJ0NOCifefhizJghHzCmA1sC34IowmlCEFICRhjSOBLQo9kzpo50XOdkfPxqnZSqgShaYQmWlg==",
+            "date": "2023-08"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "It was lively during our visit, so be ready for possible wait times even with a reservation!",
+            "source": "Lemon8",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLpbwv4c84l9NxcRJmpe4oVifGnlsNnrQ-itj7L5CvWtb1v9cYtpo7fyyocDS1lciZAmLSn7fMAYio4Uh31jjwM2TS5RmQHJ0NOCifefhizJghHzCmA1sC34IowmlCEFICRhjSOBLQo9kzpo50XOdkfPxqnZSqgShaYQmWlg==",
+            "date": "2023-08"
+          },
+          {
+            "issue": "billing",
+            "quote": "Perhaps it is because the mini lobster tacos were the size of thimbles and still $16. Or because the meal as a whole ends up being over $150 and there is still plenty of room in the gas tank for more. Or because valet (your only real option) tacks another $10 onto the bill.",
+            "source": "Feed The Monster",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTO7bEqN_PbNUUHg2AYA-OWKBCeMpV6vTdaiY7easmSNpJUs1xs00FaiKIct-x7xwljOsoU7h8YgyFGTaOcLB41R2EIHPjbinAlKn_EPVeeulCBDaqGSACis5Dh9pIqr9G4ywaBChKbvaaTLwgQWe1HGdg8Kg3F_iq8w==",
+            "date": "2013-03"
+          }
+        ],
+        "notes": "No specific POS system for Nobu Malibu was found. Reviews indicate potential issues with wait times and high prices, including an additional valet charge.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "catch-la",
+      "name": "Catch LA",
+      "neighborhood": "West Hollywood",
+      "cuisine": "Seafood",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "wait_time",
+            "quote": "And even with reservations, they will make you wait an hour.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGsc_aADiwQOX4pa0_N8QeuB4z-Z-tfWF_P6qGuJmFjR3GuSzxDoR8s5JRtMCPQdzYJ_XUBPhSxc-oAFOs6O1okZRXgaHKIdBv4K2Le5lbK8N2GTDT7tSbc843zck-uGTbCHI-mT__9u4EB7D6ajk55GwrY1N0zvcXSjLfxe-EAHkDatSCiJQjfkInHDvw3t9RnktfN",
+            "date": "2017-06"
+          },
+          {
+            "issue": "billing",
+            "quote": "The new waitress said that I wouldn't be charged for it as I hadn't ordered the second one but of course I was.",
+            "source": "Beauty And The Dirt",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-3bn5rc7fKDedH1ez8AuSdoRpgLvvoA7rz2dOHVcFWLKET_CqTqxlKTJVf8X_z7isChiYqeI0ALH6O4R2igr9o1LhsMjDQvh2xJfUIsn93lMKjCZtHBhEaYuAT92YoN54G3HPbK1JaEt3zgI-3MbAoKqW",
+            "date": "2017-01"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "We were not asked if we wanted dessert but we were actually ready to go so we did. It's such a shame we had to endure this because I still love the frozen rose's",
+            "source": "Beauty And The Dirt",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-3bn5rc7fKDedH1ez8AuSdoRpgLvvoA7rz2dOHVcFWLKET_CqTqxlKTJVf8X_z7isChiYqeI0ALH6O4R2igr9o1LhsMjDQvh2xJfUIsn93lMKjCZtHBhEaYuAT92YoN54G3HPbK1JaEt3zgI-3MbAoKqW",
+            "date": "2017-01"
+          }
+        ],
+        "notes": "No specific POS system was identified for Catch LA. Reviews related to wait times and billing issues were found, but they are from 2017.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "delilah",
+      "name": "Delilah",
+      "neighborhood": "West Hollywood",
+      "cuisine": "American",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "wait_time",
+            "quote": "Had a 9:00 PM reservation for five but wasn't seated until 9:46.",
+            "source": "Google",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH9pjBTmSTDumar_Te1vO6qDAi9OveqW4luJHKbs2omQ6toFy9Os6PMs-jvXn8o13PBTLmgSuMO3OsWoYRpwGvAwbYz7I-wxFcPk_aKPxjC8ou2t1T2K2nrdxSh0c4Pv1oYBFWGsiMxZs6VFh-7b-M4hzacoCzlAfRp",
+            "date": "2025-12-08"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "Unfortunately, it seems like there was a mix-up with our reservation, and we ended up waiting for quite a while, even with a confirmed booking.",
+            "source": "Delilah Los Angeles Website",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERtV73tmWh0Zlt4nkDsw3Zhm132DeeSzqrVRWhMfwXOIBAmHPiiBNokeLO2aQCONoqy9W5iG4OMOdleeIJjQWIyGEgUM0PgA06wy1pse1Rxvxcs2MgWpVtKu1grrvfJ6HfIxaW",
+            "date": null
+          },
+          {
+            "issue": "wait_time",
+            "quote": "we felt a bit rushed out of our table. We were there for only an hour and 15 minutes at most and it definitely felt like we should get out quickly to make room for others",
+            "source": "Delilah Los Angeles Website",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEGLwmsJnvcO8ZqjrRvQRYqJrO2AQmhCGBFraQs6lPrIVlE_9SuyL4l96P7ONQ50DX-aTxsBb8QMVIyHMYq31892_MvAAytki2CvA_LucXW24Eq_vbjCjHevdcY5AilnRwAGbQ=",
+            "date": null
+          }
+        ],
+        "notes": "No specific POS system was identified. Reviews primarily focused on wait times and feeling rushed, with no direct mentions of POS issues, billing errors, or tipping problems for Delilah West Hollywood.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "craigs",
+      "name": "Craig's",
+      "neighborhood": "West Hollywood",
+      "cuisine": "American",
+      "data": {
+        "pos": {
+          "system": "Toast",
+          "confidence": "high",
+          "evidence_url": "https://pos.toasttab.com/craigs-la",
+          "evidence_quote": "Craig's LA | Toast"
+        },
+        "reviews": [
+          {
+            "issue": "wait_time",
+            "quote": "Unless some major players arrive unexpectedly, you shouldn't have to wait for your reservation more than 10 or 15 minutes. For a hot restaurant in this town, that's kind of remarkable.",
+            "source": "Los Angeles Times",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFOxYg_I5zS8yJ_Yk9FkNCXBZUMBE_k2CHzLLzSyXN5U3S5aQQWcGV6Oupfwu8M1KtYLzq-f4-PuM27_zVVycSdBFGS61WYVFNFK5LKMJgpcKAIc_JiwZXwqdQCEogp4o4lZ0St3c0KCrV8rGk-ZbXgerSfr3ECoRI=",
+            "date": "2011-04-14"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "The service was pretty fast for how big our party was and how busy the restaurant got.",
+            "source": "Savory Traveler",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGoSTODP1E_4TXprBUDxUl-UHTd5LFTj79sQ2Qj5wRAB4QPbtfmEibPojdemcILOgGZWjbG5TLKU8lOweHWRJDcFDs2F-bcj_503N2JNYn6wk38fZN5BXy2Hw3LMC5Z7uPKXAQ_2iUAiYQVw7H1TYBd",
+            "date": "2022-05-24"
+          }
+        ],
+        "notes": "Found strong evidence for Toast POS system and a couple of reviews related to wait times/service speed, but no specific customer complaints about billing, tipping, or POS system malfunctions.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "elephante",
+      "name": "Elephante",
+      "neighborhood": "Santa Monica",
+      "cuisine": "Italian",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "wait_time",
+            "quote": "Due to the volume of people, it took a bit for the food to come out.",
+            "source": "LMU's THE LION",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG4QHXdS9jr_Rkcss066UVbWoI-2Tz6ZVEHXrAItBJzn1-Xnkg4_gWh_U6LY17EUEQP_sUAQPnHo9c43EXl54crcSdV-M34edaleRye1eyZ70FOBecIpM7PIdGvEUPTeVE34GT8Vw4IYDqU3S2BLer2OcurIYezmUcPDrygNKxjoOE6li_ZlV7mbTnKcZvYYXYY3Xahmg66j7mo6-w8YA",
+            "date": "2024-04"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "My main complaint is how noisy it is, it's very hard to hold a conversation without shouting esp in the main room. Also service is awful.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGXj1xHsBJU4uw5cNMXYDPNFo5WLHq2-s6-4jrDt64qQ9uxbsxh-TAH1wQbuBp49vXwb7XGfjzNhYO2tx6ICl5kCMQSyrVWlWL28G4XFkkeC_JEtvNaYIDSIvyxq-NSWEoPGMnIgQ_gfyQ3szpiwW1FLJOu6_k-vzS2VHlg5_JnoMFmxns2gCU",
+            "date": "2026-01"
+          }
+        ],
+        "notes": "No specific POS system was identified. Reviews primarily focused on ambiance, food quality, and reservation difficulty, with limited mentions of the specified operational issues.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "giorgio-baldi",
+      "name": "Giorgio Baldi",
+      "neighborhood": "Santa Monica",
+      "cuisine": "Italian",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "tipping",
+            "quote": "because the gratuity was presumptuously pre-computed, we were denied the basic ability to express our disappointment with the quality of service.",
+            "source": "WordPress.com",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbrkUkrqXd-Mnq3A1XJwvQBccaXgkZpH3WnnM-Vvpe-51QSlls55rGuenBcG5YtZMIXujR6JAK9pwVtdNwZ8UIEgkMZhXgvTnfMktNu4K_dOdZxaP0_psK8hEut-B4xN0OepE6wYOfPlRxwaji_GodeA8zb9m1QwU0RKiTZMUFCowk3MqCu_JKt54=",
+            "date": "2018-05"
+          },
+          {
+            "issue": "billing",
+            "quote": "At Giorgio Baldi... $90 buys you one lobster special. Not that anyone is likely to mention the price should you happen to order it... \u201cIt's rude to say the price.\u201d",
+            "source": "Los Angeles Times",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFvbYA7YDIV2jiOwX8o6KHfJElQqoenBg3Umi_oLNyWKrDXOUWl28qMBGAUE17FNHaLu5tnefThiedbNE0F7N7h059GMZ71oZ4XhCKjpiMdwjHfX1H42n0kw0DL2f-u13pCWaYhgV8imG03uGYlEVjkWL2T-ds9iw_NNWfDFArLCc5aBQ==",
+            "date": "2006-10"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "Our waiter introduced himself hastily; most of the actual service was provided by the busser. ... getting his attention during dinner was an exercise in futility.",
+            "source": "WordPress.com",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbrkUkrqXd-Mnq3A1XJwvQBccaXgkZpH3WnnM-Vvpe-51QSlls55rGuenBcG5YtZMIXujR6JAK9pwVtdNwZ8UIEgkMZhXgvTnfMktNu4K_dOdZxaP0_psK8hEut-B4xN0OepE6wYOfPlRxwaji_GodeA8zb9m1QwU0RKiTZMUFCowk3MqCu_JKt54=",
+            "date": "2018-05"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "We immediately started feeling rushed. ... Rushed experience throughout dinner. presented check before asking for it.",
+            "source": "WordPress.com",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGbrkUkrqXd-Mnq3A1XJwvQBccaXgkZpH3WnnM-Vvpe-51QSlls55rGuenBcG5YtZMIXujR6JAK9pwVtdNwZ8UIEgkMZhXgvTnfMktNu4K_dOdZxaP0_psK8hEut-B4xN0OepE6wYOfPlRxwaji_GodeA8zb9m1QwU0RKiTZMUFCowk3MqCu_JKt54=",
+            "date": "2018-05"
+          },
+          {
+            "issue": "billing",
+            "quote": "Don't forget to bring cash for the valet, which is $15. Otherwise, they'll charge you a $5 credit card fee.",
+            "source": "Mariana in LA",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTN7UU0BmP9uZuPP90rrAQDAQ1Tn2EqrdA253spC7OLeEXm7AgZ5hhZTdDvYk0oesi5twKVOwMRkQN2P2fign9bmJpTiWvkqED4mOSKhiguipvXDxP6cQuLs0ZY7vpo0dusTbw7slS-q0nCqvjPm9wruBpwpoSMXl5oBqoOdbFovJom-VtfEgCS4q2C2JULj6slWN7XIsNrlAetQnxR9sI51fEjubksNFjM7voxYUxQNOZ9aU=",
+            "date": "2023"
+          }
+        ],
+        "notes": "No specific POS system was identified. Several reviews highlighted issues with pre-computed gratuity, undisclosed pricing for specials, rushed service, and credit card fees for valet.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "night-market",
+      "name": "Night + Market",
+      "neighborhood": "Silver Lake",
+      "cuisine": "Thai",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "wait_time",
+            "quote": "When it gets busy (was packed out the door at 6PM on a Saturday), it is LOUD and you will see people looking over your shoulder pointing at your food.",
+            "source": "other",
+            "source_url": "https://travelerswisdom.wordpress.com/2017/11/17/review-night-market-song/",
+            "date": "2017-11"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "Since we came early , though no reservations we were seated.",
+            "source": "Apple Maps",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFUAO739YX7CRGBmOfOnpFaNaF--ckQMPGCH74bRvg8BvHiguAKqwqagR14duxpUiWwsP3nksGYQ6Os_8BTKZYtH7mzbmYEjo8X93av3QHkqaajzpiJPDE3NLhqIQSFE7dPf0spXIF0umiCiZEEWhd50dQ=",
+            "date": "2026-03"
+          }
+        ],
+        "notes": "Could not find specific POS system information. Found some general mentions of busy periods and seating related to wait times in reviews.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "kismet",
+      "name": "Kismet",
+      "neighborhood": "Los Feliz",
+      "cuisine": "Middle Eastern",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "tipping",
+            "quote": "20% tips are tacked onto every bill regardless of service quality.",
+            "source": "Food Talk Central",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSiX04udWNtdGTxpWDvNVqaBWEMMi_S_FejszaIsKEr5JF3vNTR_R0HpB84kONTd69zA4mbzAD4-vovr-0D9vvzhYrCjeqZSl89T4vtKXxEdIDu_0H7boBjMKz6lPdAu5OX1fOuc5eBxkJ7JZnXUdXbQ==",
+            "date": "2017-03"
+          },
+          {
+            "issue": "billing",
+            "quote": "Kismet adds a non-discretionary 20% service charge to all bills, which might contribute to the lack of hospitality of the serving staff who take home generous tips regardless of satisfied patrons.",
+            "source": "Consuming LA",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeqmuFLBlA3B_GmZHIvuIy89A_BKfykiWgSjOLcELZrbQxWhCJzXcg_MSjVXBo86EM8wD1dZuvSd8Nq_hXSEAMdMaUKJysNpIuF5qpq28gRx1pQ9Ms9YthlAHtBSD6XnhjXHzvuIGPCmnA4kk482kkS-4=",
+            "date": "2017-11"
+          },
+          {
+            "issue": "billing",
+            "quote": "Twenty percent service charge automatically added to bill.",
+            "source": "LA Times",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGADlX7MImYFjCiFLXoKPq-ottA6Xiq3WsqRJsukDA6paghblUXIbY6AlBNBqQsbl4J7qKggDyuIN2L3PlN3nNX922dYqWrAZz7P2ayldbzOMNkfq0dOtAIfLkNyZ-9u5YSZ19YH1wcWDTwqUY_-I8ofkJLoka4DKssqE7N0QsawUIoZawXTMLsClw=",
+            "date": "2017-03"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "Vanishing servers, hour long waits to get your food after ordering, and an air of indifference from the front of house staff are major buzzkills.",
+            "source": "Consuming LA",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeqmuFLBlA3B_GmZHIvuIy89A_BKfykiWgSjOLcELZrbQxWhCJzXcg_MSjVXBo86EM8wD1dZuvSd8Nq_hXSEAMdMaUKJysNpIuF5qpq28gRx1pQ9Ms9YthlAHtBSD6XnhjXHzvuIGPCmnA4kk482kkS-4=",
+            "date": "2017-11"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "No reservation. Waited 10-15 minutes for a seat at the bar.",
+            "source": "Food Talk Central",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHSiX04udWNtdGTxpWDvNVqaBWEMMi_S_FejszaIsKEr5JF3vNTR_R0HpB84kONTd69zA4mbzAD4-vovr-0D9vvzhYrCjeqZSl89T4vtKXxEdIDu_0H7boBjMKz6lPdAu5OX1fOuc5eBxkJ7JZnXUdXbQ==",
+            "date": "2017-03"
+          },
+          {
+            "issue": "billing",
+            "quote": "It still didn't justify the act of paying $50 for a two-dish breakfast \u2014 no coffee or lemonade involved.",
+            "source": "LA Weekly",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFclXqimIohbbIzqmTxqQuVPwJlC9JhXecvTSLnHJ6NEIF8v1-6jt_WAAWimYa0CxCuQnJJrYvM67AimZwdVOSBm2LCH--Krf17sQTRF2e0-NfQjEttaHsLxIKLKGTpi7zy0Xlal4NutaaMbIqdM6iftmAuF75i3eNhWTk6HthxecOwNT5Lu0bT6T0TITRY-s5jEZ4ZBVIPyQ6HoBrf9QdYB8DoVRYADaGy",
+            "date": "2017-03"
+          },
+          {
+            "issue": "billing",
+            "quote": "That \u201cTurkish-ish Breakfast,\u201d for example, costs a whopping $24 and if you want more than the couple pieces of bread they include with the dish (which you probably will), you will get charged extra for that.",
+            "source": "Consuming LA",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHeqmuFLBlA3B_GmZHIvuIy89A_BKfykiWgSjOLcELZrbQxWhCJzXcg_MSjVXBo86EM8wD1dZuvSd8Nq_hXSEAMdMaUKJysNpIuF5qpq28gRx1pQ9Ms9YthlAHtBSD6XnhjXHzvuIGPCmnA4kk482kkS-4=",
+            "date": "2017-11"
+          }
+        ],
+        "notes": "No specific POS system was identified for Kismet restaurant. Reviews consistently mention an automatic 20% service charge and some complaints about wait times and perceived high prices/value.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "damian",
+      "name": "Damian",
+      "neighborhood": "Arts District",
+      "cuisine": "Mexican",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "wait_time",
+            "quote": "the service was alright, a bit relaxed and very LA, they could be a little more attentive giving the prices they're charging.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFANrhDuvR3VdAm2l67V3fHzKFh_VzYTyJlsl3YVgSU5o392qKQm5YOlLTi_cjoJxLzzOpwqiTne5HaMtXwJQFm-Bgn6EUFKxi6mvZUCcOtWlztol2WiGcj5uiGNKaLCSASoXDmHgyArhFeJWUWSe7TlpOAZt6GM0W8_MtEXEvEosNR79kOppm0hsgpqQ==",
+            "date": "2025-05"
+          }
+        ],
+        "notes": "No specific POS system was mentioned in the search results. Only one relevant review quote regarding service attentiveness was found.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "girl-and-the-goat",
+      "name": "Girl & The Goat",
+      "neighborhood": "Arts District",
+      "cuisine": "New American",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "wait_time",
+            "quote": "We had reservations and ended up waiting 45 min when we got there. However, they sat us on a bench with great people watching and gave us a couple stiff drinks for the wait.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH2B8vG4WiGkf0y_O_0hvU34zAb9axJAlcVdspAbiBNcjVlDclvynR-nNYqFn7Kf9Bpz-tSIEtNPXKThfMPKHmiXdLwEPWamLxL1nX9q93YmJLOL8TH3VaVwvoVVERoE2xb0zU9K00VLKPFLwMs3nqsSrEYE0d0InkaKrPoKfYh-aIgF5Cs9A6Lq5P4SklOWCwR57n-yvU=",
+            "date": "2023-07"
+          },
+          {
+            "issue": "billing",
+            "quote": "A 4% surcharge will be added to your final bill to assist in covering operating costs. The entirety of the surcharge is retained by Boka, and the surcharge is not intended to be either a gratuity or a charge for services performed.",
+            "source": "Girl & The Goat DTLA Menu",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGKm6WGVcTwsnjLKps30kiWv4rR37GNgTEpxvDlOAQ1yghfe2XtokrpJ3_ZTzMuBQl9yf2gNUqyksr6OYjdaWgAsx0oPunoDsjWau05DAMB8TfR8XlO2pHilmx8FDQtEpx29VeLt7aAPk5F",
+            "date": null
+          },
+          {
+            "issue": "billing",
+            "quote": "$5 for a sprite is just un fathomable.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQUivkN7x6HbhBp3PO4fpIBGjzvkZ8lQ4Mk3uV7-4__Vj1LmWD8NdYizQWCFFfQBUsaz3O0TVIcYzk4dpXcocw-soHKSIYu6tsr4sbdg1yVywBAXpSSBlv08BQLA7tYk3qobgUZDO6dJKOv61oc9nWoU8dHgZhWOe5wkupnTtZpXpc",
+            "date": "2024-03"
+          }
+        ],
+        "notes": "No explicit POS system information was found. Relevant reviews regarding wait times and billing surcharges/pricing were identified.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "anajak-thai",
+      "name": "Anajak Thai",
+      "neighborhood": "Sherman Oaks",
+      "cuisine": "Thai",
+      "data": {
+        "pos": {
+          "system": "Toast",
+          "confidence": "high",
+          "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjdv_iX1mTNlu0iBuJkKsUngwM2zXEYskGeFWyhYrpabYtAcCpe9FS_duvARLXygq7a34jDG33uO-rw-nSkGsJvoj45tf-WKXDD3rwLuMyuUcuqt8lSvHJ9QP57MHHfgPCH1LZ6kqJO9jAxPcGum1IoCT30AppDl1Rns8_crKTgNNuCddtz08ttAX5",
+          "evidence_quote": "Orders through Toast are commission free and go directly to this restaurant."
+        },
+        "reviews": [
+          {
+            "issue": "wait_time",
+            "quote": "on a good day, you'll wait only a hour to be seated\u2014unless you're a celebrity, of course",
+            "source": "Time Out",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFpB2jVBw7TISYnmJ7J7nba90ZypPCwc6hCMguZbg_v8TBjxt9bMhYxrTCTJIRXRdw2zApUavNOEWzNzA7F1aBaPts0-lsK0M2q3M34ob7nQxGlSXfLIaIxMxBW8xvOcSW4jhNnh6n0yLMhlxHWh0BlkmsELGxr9VVO3_0QfJs=",
+            "date": "2025-09"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "Resos are still SO hard to get, so much so that I was JUST able to get a table at 4pm.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEg-R5z6QhEjypykEfH1ptwUDvnrDTe9PpCT35B_wi7iXxjbojMbtZijfCSTzSl2U2F0xuS_W747TQpiUiiL2w2CJ51oWOjLWSrJ35FUsZuJ9JIRX81wKARfA1tWbdqs1PyfCe2QyFGfD0EdSjLViAhLwDoiCb_Cfv-0w3M7RtPUDi9MpuYVZdtj-MIPaZjmXZSZNv8eydy8KyY1d35_Y9tgeM=",
+            "date": "2024-03-25"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "Everyone wants this, like, 7:30pm slot and I'm like, \u201cNo! That's your whole night!\u201d I always tell people, \u201cPlease, go have an ice cream. Go have sex.\u201d",
+            "source": "Resy Blog",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHFUPZNhOjoxy7EaobqP6wKNZh3exKLvCl97Dsavxqjph0vsA2NaAYMqWjPnNt7_cbcPP9jrme72klwi83MPkahG6F7_bUfRIoC927_zFlF0CoxxxsU-0g-ARtQsp_TBg52bXVZd6tuxKLXDMRsKAi8FPk=",
+            "date": "2024-06-17"
+          },
+          {
+            "issue": "billing",
+            "quote": "Unfortunately, corkage is an unusually high $75, which doesn't seem justified given the casual level of service (e.g. we had to refill our own glasses).",
+            "source": "kevinEats",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGc8llU4aD7LF7fck3pQEW9ve6L0BsT1DTK2WL53Qh1MrMYrZToXpoZceoQhq3ULjvEz2ZoKWrEUA0YThGyHtS6gC68D2unvzKIw4DfVNA94BcxW4ojVlM1O0W_0j35EDaIWxZtSNp_BGz9w2JHzzON4GqqKZ8D-7-4Cz_9",
+            "date": "2023-03-01"
+          }
+        ],
+        "notes": "Found strong evidence for Toast POS system and several reviews related to wait times and a specific billing complaint about corkage fees.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": [
+          {
+            "title": "toasttab.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjdv_iX1mTNlu0iBuJkKsUngwM2zXEYskGeFWyhYrpabYtAcCpe9FS_duvARLXygq7a34jDG33uO-rw-nSkGsJvoj45tf-WKXDD3rwLuMyuUcuqt8lSvHJ9QP57MHHfgPCH1LZ6kqJO9jAxPcGum1IoCT30AppDl1Rns8_crKTgNNuCddtz08ttAX5"
+          }
+        ]
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "yangban",
+      "name": "Yangban",
+      "neighborhood": "Arts District",
+      "cuisine": "Korean American",
+      "data": {
+        "pos": {
+          "system": "Square",
+          "confidence": "high",
+          "evidence_url": "https://yangbansociety.square.site/",
+          "evidence_quote": "order supplements via QR code (leads to square link above with table number already keyed in)."
+        },
+        "reviews": [
+          {
+            "issue": "pos",
+            "quote": "Strange setup for first timers - buy drinks at market, pay for dinela at cashier, order supplements via QR code (leads to square link above with table number already keyed in).",
+            "source": "Food Talk Central",
+            "source_url": "https://www.foodtalkcentral.com/t/yangban-society-page-3/29033/43",
+            "date": "2022-01"
+          },
+          {
+            "issue": "pos",
+            "quote": "In practice, it could be confusing and clunky as a customer experience... The setup is now table service at dinner; no more retrieving drinks from the Super separately.",
+            "source": "Los Angeles Times",
+            "source_url": "https://www.latimes.com/food/story/2023-07-01/yangban-arts-district-los-angeles-restaurant-review",
+            "date": "2023-07"
+          },
+          {
+            "issue": "billing",
+            "quote": "A 4 percent service charge will be added to each guest check to ensure competitive industry compensation, as well as health and medical benefits, for all of our valued full time team members.",
+            "source": "Yangban Society",
+            "source_url": "https://www.yangbanla.com/restaurant-older-version",
+            "date": null
+          },
+          {
+            "issue": "billing",
+            "quote": "Who's NOT impressed? ME! Also way over priced \ud83e\udd72\ud83d\ude13\ud83e\udd14",
+            "source": "Reddit",
+            "source_url": "https://www.reddit.com/r/FoodLosAngeles/comments/so169j/new_restaurant_yangban_society_in_arts_district/",
+            "date": "2022-02"
+          },
+          {
+            "issue": "billing",
+            "quote": "The ideas were interesting but the execution left a little to be desired, and as OP mentioned, the price seemed a little high.",
+            "source": "Reddit",
+            "source_url": "https://www.reddit.com/r/FoodLosAngeles/comments/so169j/new_restaurant_yangban_society_in_arts_district/",
+            "date": "2022-02"
+          }
+        ],
+        "notes": "Found evidence of Square POS system and several reviews mentioning initial confusing ordering system, a service charge policy, and general pricing concerns.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "camphor",
+      "name": "Camphor",
+      "neighborhood": "Arts District",
+      "cuisine": "French Indian",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "tipping",
+            "quote": "20% service fee at the restaurant... Camphor is also one of those places that specifies the 20% service charge is NOT a tip, and suggests that you can tip on top - I did not.",
+            "source": "Food Talk Central",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0Lc4XwUIpL8MmzAKOVYnx5wwRpvj6ZuwC9as3r3I0e44Ii9rd8zaXM-0HGjubRHK736yaQ6N6vjgvNzME_3l407hWvonh4DU3HL8yPG06b_OGUXyEL-gI1BW1jibogjsHmHGNeCHbpa-2vphr4fmJqjyH3GHT_b1bnndranA=",
+            "date": "2022-01"
+          },
+          {
+            "issue": "tipping",
+            "quote": "Two servers who recently worked for Camphor... are suing the restaurant's owners for failing to distribute tips, paying workers with \u201cbad checks or insufficient funds,\u201d not paying overtime, and other labor violations",
+            "source": "L.A. Taco",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLYGPmkd9hzLzYIcpPXNYGvtMsDz-fuTIjqbmDxrdo2ZIeaKyWohszg8J8w8zCUndEFrTr7sb5wK63SeyfuREWo9W7l6vabMz2ybUgESJCrlBwX_8n2JiC7gyJsSDUhxjwPdleSCBo",
+            "date": "2024-01"
+          },
+          {
+            "issue": "billing",
+            "quote": "In the past, the restaurant has applied a \u201cservice charge\u201d to all bills.",
+            "source": "L.A. Taco",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLYGPmkd9hzLzYIcpPXNYGvtMsDz-fuTIjqbmDxrdo2ZIeaKyWohszg8J8w8zCUndEFrTr7sb5wK63SeyfuREWo9W7l6vabMz2ybUgESJCrlBwX_8n2JiC7gyJsSDUhxjwPdleSCBo",
+            "date": "2024-01"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "Our server was focused on how long it took to order... and we were urged to pack up and leave at least three times even though the counter was half empty",
+            "source": "If The Devil Had Menopause",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBVSrPElvygPqWXgLOkROa2LFr9mykOzhouU2dSx6Daf4dHW-60VDBV67_226UgZBKnz7YhB-MAmc9MMHucUqnWeoeUsDKzp1d5YyI3K5ylgVIzyHZZSIpsm5ruXJ9rJeb0YRzbFsPtYsYW5GTGDamVexq2yRvszmJXgo9DaAOa73eq_-gxf-xOfHRMk62o-sE_3wEetKO",
+            "date": "2023-04"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "Dessert which we were pushed to order quickly was a Bread Pudding that was actually lovely",
+            "source": "If The Devil Had Menopause",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBVSrPElvygPqWXgLOkROa2LFr9mykOzhouU2dSx6Daf4dHW-60VDBV67_226UgZBKnz7YhB-MAmc9MMHucUqnWeoeUsDK9gVUOMFUszSw_b7_kU1IMKmx_s5fj__9DD2cQ-DlxeEAftb0LnU36LSG5BckG0LN41VBgCvWQ=",
+            "date": "2023-04"
+          }
+        ],
+        "notes": "No specific POS system was identified. Reviews indicate issues with service charges, tipping practices, and feeling rushed during the dining experience.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": [
+          {
+            "title": "foodtalkcentral.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE0Lc4XwUIpL8MmzAKOVYnx5wwRpvj6ZuwC9as3r3I0e44Ii9rd8zaXM-0HGjubRHK736yaQ6N6vjgvNzME_3l407hWvonh4DU3HL8yPG06b_OGUXyEL-gI1BW1jibogjsHmHGNeCHbpa-2vphr4fmJqjyH3GHT_b1bnndranA="
+          },
+          {
+            "title": "lataco.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLYGPmkd9hzLzYIcpPXNYGvtMsDz-fuTIjqbmDxrdo2ZIeaKyWohszg8J8w8zCUndEFrTr7sb5wK63SeyfuREWo9W7l6vabMz2ybUgESJCrlBwX_8n7JiC7gyJsSDUhxjwPdleSCBo"
+          },
+          {
+            "title": "ifthedevilhadmenopause.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBVSrPElvygPqWXgLOkROa2LFr9mykOzhouU2dSx6Daf4dHW-60VDBV67_226UgZBKnz7YhB-MAmc9MMHucUqnWeoeUsDKzp1d5YyI3K5ylgVIzyHZZSIpsm5ruXJ9rJeb0YRzbFsPtYsYW5GTGDamVexq2yRvszmJXgo9DaAOa73eq_-gxf-xOfHRMk62o-sE_3wEetKO"
+          }
+        ]
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "redbird",
+      "name": "Redbird",
+      "neighborhood": "DTLA",
+      "cuisine": "New American",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "billing",
+            "quote": "Then on top of that they charged tax then on top of that total they charged 20% mandatory gratuity so they helped themselves to gratuity on fees and on the tax. It left a really bad taste in my mouth and the dinner wasn't even great.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESY_p782cy63OS-TeByi54MkbqfKyoFRvvHLzfAq3OiCz9sUVxy18RXt1-cT41bDkOpDL8NkT6NSrB_epJA4BxXNhG6JduOEyu3gvH_yXupffTcTMLRA==",
+            "date": "2024-05"
+          }
+        ],
+        "notes": "No specific POS system for Redbird DTLA was found. One relevant review regarding mandatory gratuity on tax was identified.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "gjusta",
+      "name": "Gjusta",
+      "neighborhood": "Venice",
+      "cuisine": "Bakery / Deli",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "tipping",
+            "quote": "They automatically include tip in their bill too. I was so annoyed because i wasn't aware of it tipping them extra.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBxT64-GPTHYr1Hhjcg0w5yDm3gTEN5FuNdYBoKg2N9SQ4aQ4Gww7mHUZRgSrnPQeEKzZc4baTFepa6nmOmdXdzDHKbUaeuP4HZUNzmZRPTE-GMkKXdR8OM9UPCJT-WlwzHIINuolFkuU4caM2E1xNk4vxm_Bp6FUaTQjcyvyt5x5a12lmkCiqjOEYNqfRpSlvtck3nZaS2iVyrpQRoVtXDw",
+            "date": "2023-04"
+          },
+          {
+            "issue": "billing",
+            "quote": "A 20% service charge (what service?) is added to your bill, and when you pay a screen asks you to leave a tip.",
+            "source": "Los Angeles Times",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHJym4bbCJXxAW7rahBOxEENmNrkXkq-l7MGHE8E2-KTzqKOSd67g131PGoJ5bXasT-pw6w4cKRiwuo6QbvaE9bLmjpMXSeQ7wp9jHJ8YDYYyWZiub6iXP4fCr89oaDSQnUtKJQrnStzB5bDM6c_zAX00LmcrC5I_MigiN1yjjmq-XuMDVWks_obZ1gqlAgbrYUogxgfmzDGZO9p-Kqdhs1xq_6a0cWklfimD5bK5I6M9Q",
+            "date": "2023-05"
+          },
+          {
+            "issue": "billing",
+            "quote": "Note: There's also a mandatory 20% service charge for dining in, as well as 15% for takeout orders, though you don't need to tip on top of that.",
+            "source": "Time Out",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHGpvoP44NhCxCnDfIwc9bF9crvtoAxAl_12uNsMRAswLYZIFelGqTrESIttYGj4Mw_MvCCrsP_ZwX-X5BtvuIy9OPPJAMo7O9rILE5cVgzRaGMFZL1-HJfiAICEw9moZGUvrZjtdnSjR4jRXhgO8v6",
+            "date": "2025-03"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "Most days, you'll have to wait in line to place your order at the counter.",
+            "source": "The Infatuation (via Postcard.inc)",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFGdigG1sIVNZUlGBK4UNkGJPbPpOP0U1C8Nr5kVltUQL9Q0YVlbLAfa5BvEr3EX9siiyiLx6adpPVcAIFFrFu41tYAHvn1tmptPjn02zyL2hnONnbTwTLGv1JN-1U42iGmP_l1QU8sLYj9wHYX1A==",
+            "date": "2025-07"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "Please pull a ticket upon arrival and wait for a server to call your number, which will be displayed in red at the center of the bakery.",
+            "source": "Gjusta Official Website",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-efKKaA4s6DQkE628MAH6dcjtHcas1nxXYd920-pKl78UEEBt4_FDdGw52lHLT4EO4ms25jCRclK6HIpJxACugEDnYjdx19-13dbUAPSqI0iE9WrP4rYJ5eP74B3OeQ_X",
+            "date": null
+          },
+          {
+            "issue": "wait_time",
+            "quote": "Then, upon actually drawing a number, the wait time to place your order can be lengthy - I've read accounts of people waiting almost an hour, though my personal experience was closer to five minutes.",
+            "source": "Brunchographers",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1sVx2W-Gc1bHzXO8U_h0J_d0IuX11fHd0F9iCut6rPoK_SpOaqazWGakFTRX_jq1-lrHHCC-aUazOU5jtw25ItM4MTOjrGKEiuczi7WwWBO0DbV1ZEqraH8ukoB1IpdxfP1mgdQ==",
+            "date": "2017-01"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "The only thing you can do is grab a ticket number and patiently wait for your turn while reading the menu.",
+            "source": "Travel Food People",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEOPtC1v1SHmxnQGWAYOnnYhRHvgZOGn4yzkoWy42r14tW2wxJJn8UDK8v4zW4vsUv7Q0_kJEeGVu-Y5QElOZRicdQv5H6wToQuzdXB5tqL5ynyfSZIBmZ2fLk0LuFgcxlvXLAuUG7LGdmXpo3DE00rc-AmH5VThHpRPP-1yT6zutUmEF8hlnOsLFtIKe9wyxcIeVDT7uY=",
+            "date": "2017-07"
+          },
+          {
+            "issue": "tipping",
+            "quote": "I'm curious what all the gjusta gjunkies out there leave for a tip? 5%? 10%? 15%? more? Not sure I can gjustify more than 10%.",
+            "source": "Food Talk Central",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMK_yrxaJE-7sOZFHLS4v11HZJKMmuq_rRpgOblYrhBFCmBDbSFuTMdraeN24k-wUCoXOlXB2exEySST-Sqc88hfljUqvpbkdTc0IRcjXStJI7Ps-EkUVUF5JPAqUOKBQCTywy-eDd0AJ1gVF7Ug==",
+            "date": "2017-09"
+          }
+        ],
+        "notes": "No specific POS system was identified. There are recurring customer complaints about long wait times due to the ticketed ordering system and confusion/frustration regarding mandatory service charges and subsequent tip prompts.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "cecconis",
+      "name": "Cecconi's",
+      "neighborhood": "West Hollywood",
+      "cuisine": "Italian",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "billing",
+            "quote": "Correct. We returned all six. Also I did not discovered that we were billed for the 6 returned spaghettis until I got home.",
+            "source": "Food Talk Central",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkStleOaucrZqlWHGePgfo_FGXp-Hl6S3qFuCivmZ9NTKUG2g3XTnFXuf9W8X2sFZVTiGFs7ertcK1Yq7MNDXM0IxXZCbMs6SE_CSG3bDtuompYGW2hdvOg0xYbqZbTUNi8W2_EjUshWvE8IzvJDVNhaebUny4ukE=",
+            "date": "2016-10"
+          },
+          {
+            "issue": "billing",
+            "quote": "There were absolutely no lost to Cecconi's as I paid for both the returned and the replacement items.",
+            "source": "Food Talk Central",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkStleOaucrZqlWHGePgfo_FGXp-Hl6S3qFuCivmZ9NTKUG2g3XTnFXuf9W8X2sFZVTiGFs7ertcK1Yq7MNDXM0IxXZCbMs6SE_CSG3bDtuompYGW2hdvOg0xYbqZbTUNi8W2_EjUshWvE8IzvJDVNhaebUny4ukE=",
+            "date": "2016-10"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "we had reservations, arrived on time but were made to wait 45 minutes watching \u201csome of the most beautiful an obnoxious people do their thing\u201d.",
+            "source": "Food Talk Central",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGkStleOaucrZqlWHGePgfo_FGXp-Hl6S3qFuCivmZ9NTKUG2g3XTnFXuf9W8X2sFZVTiGFs7ertcK1Yq7MNDXM0IxXZCbMs6SE_CSG3bDtuompYGW2hdvOg0xYbqZbTUNi8W2_EjUshWvE8IzvJDVNhaebUny4ukE=",
+            "date": "2016-10"
+          },
+          {
+            "issue": "billing",
+            "quote": "service is confused, with plates going to the wrong person or even the wrong table.",
+            "source": "Los Angeles Times",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGa3iQnb7x8YCByF7Oh-SBjkGO7hURSfla4tiLBRJd7CKEd-RpLcyeuVJldQd9902ekDph2b1T-wLM6V5hlJZ-ytkxo3DbloA2KGJ7393F4deCDKuaTT3A5EOHSaLiwitOhwPX7O7kbgR0a9JlNF_5FlAiTdqOCAPxJLA==",
+            "date": "2009-05"
+          }
+        ],
+        "notes": "No specific POS system was identified. Reviews related to billing errors and wait times were found, but none for POS issues or tipping problems.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "the-ivy",
+      "name": "The Ivy",
+      "neighborhood": "Beverly Hills",
+      "cuisine": "California",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "wait_time",
+            "quote": "It took almost 10 minutes before I was given a food menu and a then another 10 minutes before I was given an opportunity to order.",
+            "source": "Yelp",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqg4mLRiGHpHCZKT1GMpxKEKU-nowHJ5KOyo4icn_jnHtSxXFDvCTTPgUXar7BKVJoouArlx_-TF6FF6GHmGltIEYdAVO0y-MBhdIkCFKS6kEdA325CWfJp7Fo2b0BOEr1zfxp_K08jKBpIFljePqQ3GFfypjmPlZi6uU3a7Clx1uXLOkDG9DmPdxOXd_Mr7zGDj-QwHbG9v_guleuYbtp4y7w5_nudi97WIRjJqk6I6NFe_X9LqwIIX8o5SBlAcodw==",
+            "date": "2026-04"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "I so badly wanna give this place a higher review, but slow service and inattentive waiters dampened the experience for me.",
+            "source": "Yelp",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqg4mLRiGHpHCZKT1GMpxKEKU-nowHJ5KOyo4icn_jnHtSxXFDvCTTPgUXar7BKVJoouArlx_-TF6FF6GHmGltIEYdAVO0y-MBhdIkCFKS6kEdA325CWfJp7Fo2b0BOEr1zfxp_K08jKBpIFljePqQ3GFfypjmPlZi6uU3a7Clx1uXLOkDG9DmPdxOXd_Mr7zGDj-QwHbG9v_guleuYbtp4y7w5_nudi97WIRjJqk6I6NFe_X9LqwIIX8o5SBlAcodw==",
+            "date": "2026-04"
+          },
+          {
+            "issue": "billing",
+            "quote": "I asked for tap water, and I got bottled still water which I was charged $11 DOLLARS for. I did not request this at all and asked why the mix up as I got the bill, all I received was a sorry and not the removal of the item from my bill.",
+            "source": "Wanderlog",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHys6JX_d_bl8COzvmQton1OY6_trrsk8JD0CIyV5mVvQ6l1kFFEPyQWiLMLl8DxV6APoyBTgW6Qw_e8MT9RAgpEkJTpdti0boboKOXYMEsJzW1L6Ns8iLlgh_p3AZ-b6MMILVbYsQTH2KNjBE=",
+            "date": null
+          },
+          {
+            "issue": "billing",
+            "quote": "The waiter kept messing up my order and quite forgetful. I asked for side salad instead of fries and I got fries. I specifically asked for no butter but my sandwich had quite a lot of butter.",
+            "source": "Wanderlog",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHys6JX_d_bl8COzvmQton1OY6_trrsk8JD0CIyV5mVvQ6l1kFFEPyQWiLMLl8DxV6APoyBTgW6Qw_e8MT9RAgpEkJTpdti0boboKOXYMEsJzW1L6Ns8iLlgh_p3AZ-b6MMILVbYsQTH2KNjBE=",
+            "date": null
+          }
+        ],
+        "notes": "No specific POS system was identified for The Ivy Beverly Hills. Reviews highlighted issues with slow service and incorrect billing.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "matsuhisa",
+      "name": "Matsuhisa",
+      "neighborhood": "Beverly Hills",
+      "cuisine": "Japanese",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "billing",
+            "quote": "Just wish they'd package the hot food in a different bag from the sushi.",
+            "source": "Uber Eats",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-mDLHfrGUK0K2DBZ5dGau6nWtVoQH23MR5hHMxSIWYZbiDjZdduvAFanAYVNs09paAFzkLVQU3-6bXVYa0X-qFnS6H9B8MD0xye5kIq-2lXTe100ciDCRdSrRHrImFa6-FZ4s8bUEog==",
+            "date": "2026-02-27"
+          },
+          {
+            "issue": "billing",
+            "quote": "The crispy tempura instantly got mushy sitting in this vinegar sauce. Further, the vinegar sauce was way too sour and totally overpowered the fish in a tongue-buckling way.",
+            "source": "Darin Dines",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG5Mut0lcLeuWTXlanst5Lp4raqos1172WTf8eOX-kOX86rOpI6RcVIXB46Lb6oWC0rAMBToK52fs8B5KflnnmU20vOMeWkZY60P5wsCA9ipFm5EEZINyR0oNb4-pZ3PaywlybEFgO7",
+            "date": "2014-09-01"
+          },
+          {
+            "issue": "billing",
+            "quote": "A dessert with the omakase menu was a misfire: corn ice cream on corn pound cake that had the texture of a deep-sea sedimentary layer.",
+            "source": "5280",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5VttEHvSWeGPvnQ_dExT2wYV7e-lzyTXnEEzx54obdxIA2BWwbb6DoeCtID9oUskcGDsHMvmayah0DD7p4i6NwnsmRp9wmfELV-rZoM_OR0VAAQx1pRJe-oEPUDSBB77OpVegeSS6DQ==",
+            "date": "2016-11-15"
+          },
+          {
+            "issue": "billing",
+            "quote": "The sushi rice was too stiff and the pieces fell apart as soon as they were handled.",
+            "source": "Foodie Buddha Dining Series",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLNO9IP6wZpfTK6pJk7gVp6i-A6FKJjiqp1xMdNrGKWSO11nu07rwC8DBdFG_bZeBaEKAYCVsJI-9emu3R4g9UyCN0D28RG23rwiETa-ExSRRqigOpeB9bT02tnN_9Lfnmm3X9FWlArM-69IgSS8igDiT2",
+            "date": "2011-12-03"
+          }
+        ],
+        "notes": "No information was found regarding the POS system used by Matsuhisa Beverly Hills.",
+        "_model": "gemini-2.5-flash-lite",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "nice-guy",
+      "name": "The Nice Guy",
+      "neighborhood": "West Hollywood",
+      "cuisine": "Italian",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "billing",
+            "quote": "They added additional charges for changing the tequila to mezcal and making another drink that i guess wasn't one the menu. We were never told that they were going to charge us anything additional much less basically an additional 20 dollars to our bill.",
+            "source": "Wanderlog",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEW0brmzoBCVchSL56sAbS8Vw-rQ6u4Ev6Tit8Yqrn34lhhf1yl5eXxn4wtEajMk-NnUopqIil8wfC4mdwTp3atMOQxUGIxvbwBELzCjuM1OQ2Dj1o_spzNfmmX60ASMY1bZF66NGEc9hifkSIXV8bV7Ak=",
+            "date": null
+          }
+        ],
+        "notes": "Found one review detailing unexpected charges on the bill, but no specific information regarding the POS system or other review categories like wait times for service or tipping issues.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "forma",
+      "name": "Forma",
+      "neighborhood": "Santa Monica",
+      "cuisine": "Italian",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "wait_time",
+            "quote": "At 5 p.m the restaurant was relatively empty, but it quickly filled to full capacity while we dined.",
+            "source": "Google",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHVU3N9D8aVBLImXVyE3ZLVa6btri4Ia-oMBDgG1-QIYqgLRl0j4pxoDBt2QSKoYnh7KgUJ3AlSbZ-s23yIdEtqt8Mqe8p9oL0AKz3pZNUpWcSK9B410flVaqZCc3dylnBqEg0ToNfWnBUKEQdsLt5v07o= ",
+            "date": "2016"
+          }
+        ],
+        "notes": "No specific information was found regarding the POS system used by Forma. Reviews primarily focus on the food and overall dining experience, with no mention of wait times, billing, or tipping issues.",
+        "_model": "gemini-2.5-flash-lite",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "sqirl",
+      "name": "Sqirl",
+      "neighborhood": "Silver Lake",
+      "cuisine": "Breakfast",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "wait_time",
+            "quote": "I've passed by Sqirl a few times only to see long lines. Thankfully we went early enough and only waited 5 minutes to order.",
+            "source": "Yelp",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkXoIgFAemLVVi1sscIEjJSu8QYKFpiZy3fCitv2MsN8WGLLgn7eP2NdQKuUPT6K61FF41e8ST8afEtHXolfSojOdSjbGBJzCHAkjsawefI7heNFqfIfWloLS2XOXWGB4a94ZJPkR1JRTgoXQBL3Dv_Nk=",
+            "date": "2026-03"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "I had stopped going to Sqirl for some time because the lines had gotten so long. As soon as the mold incident occurred, I immediately started going again. Almost zero wait time. It was glorious.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGY09Uq_z01Ripjc6thWz8OuKO0SXLY2Wl49boJU1aSsfpxVWa9l4IrgN5ObyzMGdgbRi1LTW56T-WbRd7bflznXoyMbMVMq6-QC8xoZydHuG8ucl14kOX5NbXT4f91t2JfdIdOjACh0MgMlzziAjUmxdi2RUQbccacKWbc1PMZY021TZZ1YQql-olP59qLTmi-eyjsy3AvDeVFdIOHZQ==",
+            "date": "2026-02"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "However, everything else was very meh, and we waited over 40 minutes for the rest of our food lol.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyewr_9x8D0dzHRTKxmE2kbcncspGm-pInq88nIJpumjG3zyZkvsxG_FVBZPOov5W_f19J-AUFpw8Vh4Ols9WfYFV1XrNlYHhtZTCDi8hZutg8e3kIKssIgbDe6M7ofGmihtdrG9YTEZu2aH6Bo4FXK4RJzyTg1MRyI_GEsNPAgkmOxeNOIBRp4hzFEEwA-n7H",
+            "date": "2023-02"
+          }
+        ],
+        "notes": "No specific POS system was identified for Sqirl. Reviews primarily highlight issues with long wait times.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "pine-and-crane",
+      "name": "Pine & Crane",
+      "neighborhood": "Silver Lake",
+      "cuisine": "Taiwanese",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "wait_time",
+            "quote": "I hate the \u201corder at the counter then stand around and hope a table is free before your food is ready\u201d system.",
+            "source": "Food Talk Central",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGZaxdjKilaEOWxzi4gdmdI_UjuTDyH7dPjNp9SJ_Xnf-8SaNOAxLaGsZ1P3G30_XNAuC9wlTY9vi8_qkD__iAcMxP0a-3PPm96P2XjuX_c1nLarRDD-6yo01qJAtYId_0_aTWXsKZ47RNgMV3Pb9fppvPB5WnrIZcVJ5Fj",
+            "date": "2015-12"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "The lines can be long so plan accordingly.",
+            "source": "restaurant review: pine & crane (aka authentic taiwanese food in silverlake)",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH0jh1ZfG53YCYZrRMcQ0oeWaANhv7eQWvbu6XPTLM6nqNqemuJMdmMCziEGdYiBeeBPpZU7iQ0NvwKvv6KnyE56QKMVPipOxjbj6DXgB3DursTKiot9LRrI_ynatNoa3tSoRXo8TgXfuPmjyWvgjEvT9PAKlga_Ixs57plKDdbFnyN9_p9ktCiwsB4sIINqQ==",
+            "date": "2015-02"
+          }
+        ],
+        "notes": "No specific POS system was identified. Reviews related to wait times were found, but no direct quotes for POS, billing, or tipping issues were available.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "here-looking-at-you",
+      "name": "Here's Looking At You",
+      "neighborhood": "Koreatown",
+      "cuisine": "New American",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "wait_time",
+            "quote": "Warning - we tried to go yesterday and the line was very long. The majority of people in line for walk-ins weren't able to get in, even those willing to get in very late.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6qx7a9Gomo9yAdf8rrC6ELf22AQKwtB4RVBpvc24RuT5rPdGaeIo31_XUx2t9OLulSvQbRZ-zcGwIJlDLXtclVFv-RRp2k-BF4j4gn1e7rqe5PlfRqZOKIdfW_4sv_a2ykPIZK40zCGWNzIbDIUlU9r9kxQBwrVVWTT4VgpfeZ-EIoli_J3-ki-EsWJb_67DxWiV-yZrn83Q",
+            "date": "2024-08"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "I went last week walking in right at 6pm, didn't get seated until 7:30 (I just wandered around Koreatown until I got the text message)",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6qx7a9Gomo9yAdf8rrC6ELf22AQKwtB4RVBpvc24RuT5rPdGaeIo31_XUx2t9OLulSvQbRZ-zcGwIJlDLXtclVFv-RRp2k-BF4j4gn1e7rqe5PlfRqZOKIdfW_4sv_a2ykPIZK40zCGWNzIbDIUlU9r9kxQBwrVVWTT4VgpfeZ-EIoli_J3-ki-EsWJb_67DxWiV-yZrn83Q",
+            "date": "2024-08"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "there was a bit of a wait for a table, and there wasn't much of a waiting area inside, but luckily we got to enjoy our first round of cocktails outside.",
+            "source": "reservation for two",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFo9lV5firYuyRN9AQzX56n37pEhQTcd8uwUcBA345i3GaoUJTjT6ZzBDCY9PNnjTa3BMPbSP1ZTllyzoM4l7-xAwgj0Ef8x3dN8mmDGoaapHoLhRxOSEd4wNP8eFtYq6kY6jgxKuFuPt1TKLo1PAzwNDmowZX1AGOTCWs=",
+            "date": "2022-05"
+          }
+        ],
+        "notes": "The restaurant \"Here's Looking At You\" is permanently closing on June 13, 2025. No specific information about POS system, billing, or tipping issues was found.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "guelaguetza",
+      "name": "Guelaguetza",
+      "neighborhood": "Koreatown",
+      "cuisine": "Oaxacan",
+      "data": {
+        "pos": {
+          "system": "Toast",
+          "confidence": "high",
+          "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGD3_0f8OzNh_IUiY83twg7-mA4LQOlEGebbDyJIOjsh-KMWFQ2IgpVwwqDwPs0knxtiBruVYHTqqSNclFPUAW576NjnGPWGAmz71mJodIvLb5DjuH9a8t4x1M3VrU7aTs86uRSQpZDlMF_irg9wHN9",
+          "evidence_quote": "After a harrowing year, Bricia Lopez reflects on how her restaurant has changed \u2013 and the family values that have remained steadfast throughout it all."
+        },
+        "reviews": [
+          {
+            "issue": "billing",
+            "quote": "no prices on the menu left us surprised with the bill.",
+            "source": "Placejoys",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH5YTXm2m-nHiccdVtOUETslrghpwg2zfdUC32crt_DT7XC4S8hsQkdISQD4LNououBdP30DFoWvfU403oUoJsa-n7vQXRQGmOBFb44k_CIirBFb2J7hUDqVhxi-f6IeO0=",
+            "date": "2025-12"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "Super late order.",
+            "source": "Grubhub",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFQUgUFEc147iai7FoM2R9xBalQd7ipHG-m0LD_bsHmxVDIVTX_lOgZ8163Dk-XmH_At0YgxLOEsUS-AC4NuuRoyp_xdh7tmQ2SCxTGSb4E_mSKjRZbkoB9_x9OBezgw-QOty3BKrgHxYzZA2dYalBxruQXGu6jHNLu-OgvUDkqWyOsfpDDO98JpsI2opDdjUQRYi-5aFNUhA==",
+            "date": "2025-08"
+          }
+        ],
+        "notes": "Found the POS system and a few relevant reviews, but no specific issues for tipping or POS system performance in reviews.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "saffys",
+      "name": "Saffy's",
+      "neighborhood": "East Hollywood",
+      "cuisine": "Middle Eastern",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "wait_time",
+            "quote": "walk-ins, while technically accepted, might be turned away on busier nights or face wait times of an hour or more.",
+            "source": "Time Out",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEBOqBpTYit77-dKYITQkCWAuoCYmhf4hwUz8R9YmDIpo-JE1wiNyWktZNLohs11AMc4ZgIJluw5Y3t5jluz0xVMOkRKp16XZBy07mVtq5PJttQzZ4AnElzmWHVfPUPSQbiTSnXYWKgKWdbV84jTOGMqA==",
+            "date": "2022-10"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "According to my latest Open Table search, reservations are still in high demand for the stylish restaurant with most slots booked out a month in advance.",
+            "source": "NJ IN LA | Modern lifestyle blog",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEdZ8AfiSHGwV6irF3aIAQEBQPGvoNwBicQjdMhnbTm_V37y5rlcWvdVSV9Qlr8XEPg4iWsR4XLLN10GR3rLepCzg5SULOOvnje2vgsBFCbOAziNXvXzXNFKY5ZlqNnKZMz39a6mu8L_0BWDItGQcgIpOGPq7H5i1bU6pM0UYw=",
+            "date": "2023-04"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "We don't have a reservation, but heard that they leave MOST tables open for folks without them. How long have y'all waited for a table there?",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1yWjTBOqGhJBylqpAo1proEdC8-zd_69TjQ-gjbRUKWhk2u2qqgHvNlZk_PxP3oDIEfBKtm0SmqoyzpWL2UKeP__CpHsDVyAv06VZfwKWu2j2FCe2uvjti4YMExuS-BY_F22a-7gMERxuSfTcWZPd_aovxvhuLTn7AAcVBHcJLIM3J4nLi5A=",
+            "date": "2022-12"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "They absolutely do not leave most tables for people without them.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF1yWjTBOqGhJBylqpAo1proEdC8-zd_69TjQ-gjbRUKWhk2u2qqgHvNlZk_PxP3oDIEfBKtm0SmqoyzpWL2UKeP__CpHsDVyAv06VZfwKWu2j2FCe2uvjti4YMExuS-BY_F22a-7gMERxuSfTcWZPd_aovxvhuLTn7AAcVBHcJLIM3J4nLi5A=",
+            "date": "2022-12"
+          },
+          {
+            "issue": "billing",
+            "quote": "A 4% service charge will be added to each guest check to ensure competitive industry compensation, as well as health and medical benefits, for all of our valued full time team members. If you would like this charge removed, please let our staff know.",
+            "source": "Saffy's Official Website",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMmgDLYsAADeSlxpzZWsZFk9Yr8xXHdR4v7_KQ1zSYYm03kTIqweott2jBUM9KID_1qsWg1_fKOuvAhR1KCV2944UrHF5E6bZ6cKdqxQFbIpF6Y8Q393B_Kw==",
+            "date": null
+          },
+          {
+            "issue": "billing",
+            "quote": "Had to try twice to get dishes removed from the check that we never received.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH8n47JEAFSl511bZDhYjn36eHZECSiS6XmiRhVBV8ysuWOuLs8n7_haRY33xEvsccwvnkUt3DjbaMm7pG0ipCBfD_gWByR01vBPMNtDsNDsR2l-w5bdXBDW8LpWqLDBIqXcLJOBOGeOqXY63szLWA1ywtvHBnfVn9UJWPpVuJgjeNRtILKinUU",
+            "date": "2024-07"
+          }
+        ],
+        "notes": "No specific POS system was identified. Reviews indicate long wait times for walk-ins and difficulty with reservations, as well as a mandatory service charge that can be removed upon request, and one instance of incorrect billing.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "found-oyster",
+      "name": "Found Oyster",
+      "neighborhood": "East Hollywood",
+      "cuisine": "Seafood",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "wait_time",
+            "quote": "So, when Geneva lamented that we could meet at Found Oyster for our planned dinner \u2013 BUT it would be too much of a tragic waste of time to go at 8pm when we were planning on meeting up \u2013 due to the horrid wait time \u2013 I became curious.",
+            "source": "Eclectic Kim Review",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFS3S2QO2_3FMeB0p39diP0UQFgwGorbCz1KiQ5HVfrgUGoMrt02TqNKj7A7WI_d3ne5Itj_cu0dlGPQAdZMae1ywJp4rbhJKd8wCbfCYNfxx6t0gNJdj2-Y4MIxglfS0-u87gf",
+            "date": "2023-04"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "A couple that came only 10 minutes later had to wait at least half an hour to be seated.",
+            "source": "City Niche - WordPress.com",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6QCCoGafgy0FY2cIetGwTv5uZUvvXvLP5i8QxGEQoxcpoK2ycRtM5G0QFNFgddvZVeJAfbPEmNb4ckQl0wWoEJHOpD1pFy5cwK5kT7Ve0pXCe1ejyT06ZgIK3P6x-bOYBiePuMbkZvdeVg_isrlwYt-Tca79LlYa8Uy61B_XbGlsfaFtODQMi-LRuWmAnGiBMBxASxRUch30xxMBL",
+            "date": "2022-04"
+          },
+          {
+            "issue": "tipping",
+            "quote": "For those interested, a 20% service fee includes tip (one and done).",
+            "source": "Food Talk Central",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIBcLEVLge5JC0aVk18R-W68GCCcQ4D_ifr3Kc976e0yT2i5v9Y_beKtxk_LaVN-W6F38nk1mdd_OeD_VzaHAzuuKBF2epryRcXDtKqy8jjIEIs6oHtn6voAbVwlWEHZjkCOj6pYbn4y_Iye9DEGs=",
+            "date": "2021-03"
+          },
+          {
+            "issue": "billing",
+            "quote": "Last Word Hospitality (Found Oyster, Queen St., Barra Santos, etc.) faces class-Action lawsuit for allegedly withholding gratuities.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRhbhqqnXIBFHXOsgKwU8WjJoWGcd6tPRFSWrNcbokuMXU754jru6BTnM4LrUG8bi3-L7uDxuE-mz50qRZGrceMwMSnTjAKGlieLtghHEegY2_AQeW0G-qVJ-Cwk6ufkYEyhhwLeUsL_9sl9VPublmMIHvd6ruYyerxw-eCYMjdzSu50M7wedySEkOLLcs6krYJRluX9zgq1XUtoJLYhu3Y48ZS7yb",
+            "date": "2024-02"
+          },
+          {
+            "issue": "tipping",
+            "quote": "As a diner, you are asked to pay an automatic 18-20% service charge under the guise that this is the \u201ctip\u201d, but the staff may not actually be getting all of it or any of it all.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGRhbhqqnXIBFHXOsgKwU8WjJoWGcd6tPRFSWrNcbokuMXU754jru6BTnM4LrUG8bi3-L7uDxuE-mz50qRZGrceMwMSnTjAKGlieLtghHEegY2_AQeW0G-qVJ-Cwk6ufkYEyhhwLeUsL_9sl9VPublmMIHvd6ruYyerxw-eCYMjdzSu50M7wedySEkOLLcs6krYJRluX9zgq1XUtoJLYhu3Y48ZS7yb",
+            "date": "2024-02"
+          }
+        ],
+        "notes": "No specific POS system was identified, but there are multiple mentions of significant wait times and a class-action lawsuit regarding service charges/gratuities.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "all-day-baby",
+      "name": "All Day Baby",
+      "neighborhood": "Silver Lake",
+      "cuisine": "Diner",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "billing",
+            "quote": "We never got a paper receipt, so wasn't sure what was billed. ... Not sure where the other $12 they charged came from.",
+            "source": "Google",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLiqopA10gcWp5mqKTozBWzBT73u1aAW9PrMkzpsQJ4emsXbDYnC3dIBvf45xWUgDJlYIWgrpxrkwRYY2TE3EQ8316W_7Rob69L1pmRG2lO7V3MP0Au2EAL-JxyfTnEB15QOfjCym_LSwUhbYFm-Bg9Q==",
+            "date": "2024-06"
+          },
+          {
+            "issue": "tipping",
+            "quote": "I took marks off for two reasons: they charge a service fee of 3% to pay their cooks - written very small at the very end of the page.",
+            "source": "Google",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLiqopA10gcWp5mqKTozBWzBT73u1aAW9PrMkzpsQJ4emsXbDYnC3dIBvf45xWUgDJlYIWgrpxrkwRYY2TE3EQ8316W_7Rob69L1pmRG2lO7V3MP0Au2EAL-JxyfTnEB15QOfjCym_LSwUhbYFm-Bg9Q==",
+            "date": "2024-06"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "Service, which I'd known to be efficient and confident, felt slow and tentative.",
+            "source": "Los Angeles Times",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqxOklngDUwu1ncwbZSToVMuW-_x47U4eVrJuMUdADtBHrLyHxRodsaxLOcAcIhrubj-nJJlhh2yw3iHo_oPwFyy5v5hyuM2fZTf20SVxD9LEOmehNeeE2suGECvxQqhiK1BCf9EOYDmJX2UraTOhJQDpK1JlWUEt-oBE6JFYnVsll2iuKw2jAJUU_RfVLJMyzPXkyEQjtkiY==",
+            "date": "2020-03"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "There is a wait to be seated.",
+            "source": "Google",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLiqopA10gcWp5mqKTozBWzBT73u1aAW9PrMkzpsQJ4emsXbDYnC3dIBvf45xWUgDJlYIWgrpxrkwRYY2TE3EQ8316W_7Rob69L1pmRG2lO7V3MP0Au2EAL-JxyfTnEB15QOfjCym_LSwUhbYFm-Bg9Q==",
+            "date": "2024-06"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "we did, however, have to ask her if we needed to make our order with the bartender when no one was acknowledging us, never mind coming to our table to take our order.",
+            "source": "FORKD",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYJb6pwOwV14DZlgkgfDGm2OxlStKNOeYRU5wEnT-Zl1e2RTfcbwdkwqqQ5i9v-_LBzs7mHwSBkE-meNeOz_Jjiheb6YkzVF0I1SAnuigWRT3489x3o7D2-Pshu8n295QIk-EHgV8=",
+            "date": "2026-01"
+          }
+        ],
+        "notes": "All Day Baby in Silver Lake, Los Angeles, permanently closed on December 15, 2024. No information regarding their POS system was found.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": [
+          {
+            "title": "reddit.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgpX5jrIJoSHnNLS49YN77qZpktZLcAjWI1ONO9mNsTywOGdd_0rLBmU0zOVdKkTpUE-tUfNQGvRupQ9jDy11mQ09CTaQggV5mwoHudBHztI4S6eeW_HuudaXqL4VlTTeb9kaK78tBfXA83SiOiL1-fkmzuPg9OCiiBfx8wcSOZs6b4m5W0niD-rfqGLJbnns="
+          },
+          {
+            "title": "latimes.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFBbeVQBCmi6Hf8MtI3lDz7tdwusFalvXI0RaXlioHXJg2zxSr-WPmBdcMNUhpCH8Kq7aFhgwe_tJCfL4PSRMCfpiIn8elS7tMWN3jqUhd5A2H-SJM1B9C6ocTgFoVUuQuj_iDgMaD8aoRHXb64jUkMCNDSB84K24YniWGVbdv1wIrvKCR2ijtwJDUb7nBDPw1KqOHKJRA3gA9vTLewKgRAh63hz70sy4TbdAlirFibMT0ydgw="
+          },
+          {
+            "title": "whatnow.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbvS2f_wWSXhpGDquGGWUMxBR3XNghuR8lpvnxoTuTkEjtmr13qAGbs1JmcEK1SqEYLCSOxeVa8IvWUWdSuiAuMu2iMeduTGXfewZTH_Do8YBVAXluunka86frs8mtlhmOvS9RHEPd0L1TKZksA-zF-KFnC7XP020oS89WAgGU8sOUnOfQ8tC3KLCE96S-_XEi5A5CQeAqZtk="
+          }
+        ]
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "orsa-winston",
+      "name": "Orsa & Winston",
+      "neighborhood": "DTLA",
+      "cuisine": "Italian Japanese",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "billing",
+            "quote": "Now they only offer a 5 course for $125 plus 20% service charge (which isn't the tip).",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEs_nXtQLe5A8aqwTfJp6o8BNjrzCsChmpKIXQ-A2KXV0DALDpK5nBS6x6C3yxOAT_3473Zf-LLygsleUbQ_lhbzdc9_4UoJmQj59YEr3a2ON_dX_i9ki4LBvsTVYNLEzW-Gscp1PiR_EGZejklQ0XTs_ftZ9oPeGUheGC_IpjNCLJI4wHiSEBxem13VcWA7w==",
+            "date": "2022-11"
+          },
+          {
+            "issue": "tipping",
+            "quote": "guests are disappointed that they include 20% service fee",
+            "source": "YouTube",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH-2dnbK5-aOMxgrXMBN4UFILkyUyjlHqgUQtOZ2-vSnSq4GkiLmr51zlqUET2RPF7qnsEoDBiQGPM9Kdr_ZjU89toUBYRM_0ax6HKCPz9JvWFhVcDu4n4D_qZ1hgI81O4K-tG8tmE=",
+            "date": "2025-09"
+          },
+          {
+            "issue": "tipping",
+            "quote": "Beware the 20% service charge that is \u201cnot a tip.\u201d",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEs_nXtQLe5A8aqwTfJp6o8BNjrzCsChmpKIXQ-A2KXV0DALDpK5nBS6x6C3yxOAT_3473Zf-LLygsleUbQ_lhbzdc9_4UoJmQj59YEr3a2ON_dX_i9ki4LBvsTVYNLEzW-Gscp1PiR_EGZejklQ0XTs_ftZ9oPeGUheGC_IpjNCLJI4wHiSEBxem13VcWA7w==",
+            "date": "2019"
+          },
+          {
+            "issue": "billing",
+            "quote": "But it was always still an odd ordering system where you wondered if you paid up front or at the end of the meal (the policy seemed to change with the order taker/server).",
+            "source": "The Minty",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFY3M9fF8RcUj1Ce0aQsxPkELS1YAN_N6IIwUrpiGgNN5DX9f41kb-h11cpGECw5PN1EZtY6XXb_rFWFLAM5q72E9Hg0SnT9wUq6W-4YkkOln4f4VjkPYR8ISyybC5lpf07SVo7lnAIVQUol2HpBGuag5QoLehDvJYcZh0Er6GG2S5mJe0qZBc=",
+            "date": "2018-06"
+          }
+        ],
+        "notes": "No specific POS system was identified. Reviews primarily focused on the 20% service charge policy and some confusion around the ordering/payment process.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "bottega-louie",
+      "name": "Bottega Louie",
+      "neighborhood": "DTLA",
+      "cuisine": "Italian",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "billing",
+            "quote": "I was just mad about their shitty little service charge\u2026",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFNLezEt3zIpIkVYoN7Q40yCtTD1VYRMuW_KC5gFsHgDiW0Hb2DxJcLHe1eOwHjqWDNSFUONljz7NXG6Zu4IW4LTUjvCx0naTOsfGnH106C5DggotMGy3pUQw8CUUUfUbH93x2dV2cighKuvwtd5T2Xa9aGeFKnypL-mWN2p2huTCG92lf8sU5NvyLg5LY1ublFLNe",
+            "date": "2025-06"
+          },
+          {
+            "issue": "billing",
+            "quote": "Bottega Louie with the BS surcharge",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhZiaiQ_XKjpHGMOFjjDg_vn3KQ1wNZ0zGb2V15DBNgB2J4emY0z-N2I6AsU6o2kxzkYjjxdhd2BW_pdxA7fD5xvZkmrfkiQgdxI1BqYJUHq-mnALW3W0LWJ3kLomOfeZSlzDQvO0RGyM7Zzolmd4OzioWfeKpEY0d8BelNeiMROHY0n9yi8fFFs1s3u6J17VZgFJd",
+            "date": "2025-02"
+          }
+        ],
+        "notes": "No specific POS system was identified. Reviews related to billing surcharges were found, but no direct customer quotes for wait time, POS system issues, or tipping issues were located that met the strict criteria.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "71above",
+      "name": "71Above",
+      "neighborhood": "DTLA",
+      "cuisine": "American Fine Dining",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [],
+        "notes": "Could not find explicit mentions of the POS system used for transactions. No specific review quotes regarding POS issues, wait times for billing, wrong charges, or tipping issues were found in the search results.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "perch-la",
+      "name": "Perch LA",
+      "neighborhood": "DTLA",
+      "cuisine": "French",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "billing",
+            "quote": "The restaurant charges a 20% auto-gratuity on all food and beverage items for parties and groups of 7 or larger and prepaid VIP and Holiday special menus.",
+            "source": "Perch LA",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOdqWXSt6yZHSTW6bZ25O3ctsAzF6BjsDK6ppHSFMdT5OApD4LBkVJU25LxChMyhNy5wzhbBKJ6cuK53WK1iWfyICzMftnTnPFsMG_IAOZXdFixq8oTUGbzNoWRb42PA==",
+            "date": "2025"
+          },
+          {
+            "issue": "billing",
+            "quote": "Perch, a rooftop bar and restaurant near Pershing Square, tacks an extra 4.5% charge to all customer checks to \u201censure the safety for all staff and guests,\u201d",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxeul-sdb9cyrhBkdaxY-Hid2NDAuH38RKZ7m7I8iIs8M8HaoBwsUD9Ejd85ZNZaINNQq8Aj1xVXK7XN8enzfodV6dm--d8ymr086QtK4IsyRg6mO2tYYn3RsPAJKNQvBU5XmXC2RaxLSRwvpqd4IxT0wCzhHwqYodHjvo5rywPq_epB3YwBM-AFJhS4fDfXDAL4eR8m__pD_lBJ2f9iBtRw==",
+            "date": "2024-04"
+          },
+          {
+            "issue": "billing",
+            "quote": "4.5 % charge - a percentage charge - because security and safety measures rise with the amount on the bill? This is so obviously BS that it boggles the mind. :-(",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxeul-sdb9cyrhBkdaxY-Hid2NDAuH38RKZ7m7I8iIs8M8HaoBwsUD9Ejd85ZNZaINNQq8Aj1xVXK7XN8enzfodV6dm--d8ymr086QtK4IsyRg6mO2tYYn3RsPAJKNQvBU5XmXC2RaxLSRwvpqd4IxT0wCzhHwqYodHjvo5rywPq_epB3YwBM-AFJhS4fDfXDAL4eR8m__pD_lBJ2f9iBtRw==",
+            "date": "2024-04"
+          },
+          {
+            "issue": "billing",
+            "quote": "us paying a security fee is crazy though when you think about. it. it is crazy when you think about it it's like are we actually paying for food are we paying the bills. for their extra.",
+            "source": "YouTube",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkVP5wKfUt0UoVsolGBNnEy1kXX9huGtW2mcnRdBMzDeiTP0ITOS3SKXNIU4FpYXHojUrR3ZdGJfSAPxyc6CQKvSH-CqEjvhgPB0sftvwLWoWnf4Ovktzl8pkqTO7t18MqbEJPQD8=",
+            "date": "2024-04"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "Packed on a weekend (expected, but it's a small waiting area), 30min+ wait time even with a reservation, packed rooftop, and unmemorable food.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAbZMwO0FtjvycNp6K5WVsVvdFxfcoNXKFuRZAczCjJ1mmy2HE_KISbnzKFLYYs3y-Hz0w8CTVVwY6EVb-sAVAAvHB0DA8U1ve72T0VibHDvLgsPiEe7zZd-oznh2wa235OjF0UhLjwuMGdwJEa2ptQyfiL3-lGEDw6TXaxKmr5qKmre_0__DFhGRsKE6qEk7WwHQ==",
+            "date": "2021-03"
+          }
+        ],
+        "notes": "No specific POS system was identified. Information on auto-gratuity, a security fee, and wait times was found in reviews and official restaurant information.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": [
+          {
+            "title": "perchla.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOdqWXSt6yZHSTW6bZ25O3ctsAzF6BjsDK6ppHSFMdT5OApD4LBkVJU25LxChMyhNy5wzhbBKJ6cuK53WK1iWfyICzMftnTnPFsMG_IAOZXdFixq8oTUGbzNoWRb42PA=="
+          },
+          {
+            "title": "reddit.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxeul-sdb9cyrhBkdaxY-Hid2NDAuH38RKZ7m7I8iIs8M8HaoBwsUD9Ejd85ZNZaINNQq8Aj1xVXK7XN8enzfodV6dm--d8ymr086QtK4IsyRg6mO2tYYn3RsPAJKNQvBU5XmXC2RaxLSRwvpqd4IxT0wCzhHwqYodHjvo5rywPq_epB3YwBM-AFJhS4fDfXDAL4eR8m__pD_lBJ2f9iBtRw=="
+          },
+          {
+            "title": "youtube.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkVP5wKfUt0UoVsolGBNnEy1kXX9huGtW2mcnRdBMzDeiTP0ITOS3SKXNIU4FpYXHojUrR3ZdGJfSAPxyc6CQKvSH-CqEjvhgPB0sftvwLWoWnf4Ovktzl8pkqTO7t18MqbEJPQD8="
+          },
+          {
+            "title": "reddit.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFAbZMwO0FtjvycNp6K5WVsWvdFxfcoNXKFuRZAczCjJ1mmy2HE_KISbnzKFLYYs3y-Hz0w8CTVVwY6EVb-sAVAAvHB0DA8U1ve72T0VibHDvLgsPiEe7zZd-oznh2wa235OjF0UhLjwuMGdwJEa2ptQyfiL3-lGEDw6TXaxKmr5qKmre_0__DFhGRsKE6qEk7WwHQ="
+          }
+        ]
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "union-pasadena",
+      "name": "Union Pasadena",
+      "neighborhood": "Pasadena",
+      "cuisine": "Italian",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "wait_time",
+            "quote": "I've been following the restaurant's positive press since the start, but couldn't quite swing a meal here (walking in at 5:30 PM on Saturday evening was impossible) until now.",
+            "source": "Google",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaP-O9LaXQI0zd97pot1A8Iq16gTPd6heCLp20fObggarsQDMPzz9nQsRluKm9f4BFkNxSCTkWqDZr7B-05grgfFLL6FxM-2wgIB3SdGfezeHWvRb0EneKEmZFqbymveea7XiO9MnH9KfncfTbAfbE",
+            "date": "2014"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "It was most definitely worth the wait.",
+            "source": "Google",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEaP-O9LaXQI0zd97pot1A8Iq16gTPd6heCLp20fObggarsQDMPzz9nQsRluKm9f4BFkNxSCTkWqDZr7B-05grgfFLL6FxM-2wgIB3SdGfezeHWvRb0EneKEmZFqbymveea7XiO9MnH9KfncfTbAfbE",
+            "date": "2014"
+          },
+          {
+            "issue": "billing",
+            "quote": "Now, this was good \u2013 but I do think it was priced a bit high for what you get.",
+            "source": "Google",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGjxEJSWsR7SM-mtknQMteHLaL1O5_LONolQXJ5DTiAV8DUJUro1GA3KphJvetUNKiubFab7SQAptB7cntoIz4aSBD9HVJ8bev9Jha1ORkbvKHwnTdrL88_pf1bDUH3n2y3f-27Ewo=",
+            "date": "2024"
+          },
+          {
+            "issue": "billing",
+            "quote": "Too salty imo. Don't really get the hype.",
+            "source": "Google",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGzFSJFwlr_4lapXafJbJZXnivmGWv7hXCi3vRFYsXKe693nt81G0RI3iAO8WXibP-x0fQwYltXrwv_yGg-yX4CHrvS6XRuE2C8A_g5PeWC20iTUvFrljzbRn8IbTPLmICzFDEYgCOUz9XE-SSd7v3wceL4S89_wDKzbl6UYzZufrwl2DN1",
+            "date": "2022"
+          }
+        ],
+        "notes": "No specific information was found regarding the Point of Sale system used by Union Pasadena. Reviews occasionally mention pricing concerns and wait times for reservations.",
+        "_model": "gemini-2.5-flash-lite",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "bistro-nas",
+      "name": "Bistro Na's",
+      "neighborhood": "San Gabriel",
+      "cuisine": "Imperial Chinese",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "wait_time",
+            "quote": "wait time of over an hour until you get your duck carved and sliced by the chef, ready for you to layer into pancakes",
+            "source": "other",
+            "source_url": "https://lifeandthyme.com/profiles/jon-yao/",
+            "date": "2022-01"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "Wait times are epic, so plan ahead with a reservation or join the digital waitlist.",
+            "source": "other",
+            "source_url": "https://www.timeout.com/los-angeles/restaurants/best-chinese-restaurants-in-los-angeles",
+            "date": "2026-02"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "Make sure to make a reservation, or you might face a long wait or even be turned away.",
+            "source": "other",
+            "source_url": "https://wanderlog.com/list/13014/the-15-best-chinese-food-in-san-marino",
+            "date": "2026-03"
+          },
+          {
+            "issue": "billing",
+            "quote": "Parties of 9-20 guests can enjoy a Prix Fixe menu served family-style at $75 per person (plus 20% gratuity and tax)",
+            "source": "other",
+            "source_url": "https://www.metropolitanshuttle.com/blog/best-large-party-restaurants-los-angeles/",
+            "date": "2025-10"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "we were told by a waiter that we could not be seated because because we did not have a reservation",
+            "source": "other",
+            "source_url": "https://foodtalkcentral.com/t/bistro-nas-a-year-and-a-half-later-los-angeles/7761",
+            "date": "2018-06"
+          }
+        ],
+        "notes": "Bistro Na's uses OpenTable for reservations; no specific POS system was identified in public records or reviews.",
+        "_model": "gemini-flash-latest",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "soho-house-weho",
+      "name": "Soho House WeHo",
+      "neighborhood": "West Hollywood",
+      "cuisine": "Private Club",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "tipping",
+            "quote": "Tip pool for the servers, but no way to see what is actually coming in. The house chooses how tips are dispersed.",
+            "source": "Indeed",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFkkbdpI4lH9WV1S2dlXy2yHWeaCZuVLtcpWZYEa7s2rZLIZoAmPd26X88a_CG0dz53QCbmCnERed1OGrWrxQiI4yDau_inVLF635LYNHVx2CO7bxunwSR6MJHlcGH-hg-cnP9rav3igEJtim5RG78SpiUGtu1VO5S1OJrepJgdvXV_2c70j3K3MN7RuHDqomxnAKMSO4POo8SK-kEX4KWqfM6ggg==",
+            "date": "2024-10"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "Service on the balcony was a bit slow, but the staff was consistently respectful and attentive.",
+            "source": "Wanderlog",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYy5J8kTZ2XbCNbQ3ag4ty7FEDf249W6zllmDVHXbNXfpl0v72egzysGXBHYdp_DD2YY9YA-9sAevIuEDZI075k___ljfzbhAyx21WdjhXD6Sqjp9WGYOld8RU-z2X2akqabbFvQAYDA0_yLUr6lIX2UW6j0D4E7uKlQ5pyRM=",
+            "date": "2025-04"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "Great views, fairly basic food with mediocre service. Food was nothing to write home about, it was OK, but the lemon meringue dessert was amazing!!",
+            "source": "Wanderlog",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYy5J8kTZ2XbCNbQ3ag4ty7FEDf249W6zllmDVHXbNXfpl0v72egzysGXBHYdp_DD2YY9YA-9sAevIuEDZI075k___ljfzbhAyx21WdjhXD6Sqjp9WGYOld8RU-z2X2akqabbFvQAYDA0_yLUr6lIX2UW6j0D4E7uKlQ5pyRM=",
+            "date": "2025-11"
+          }
+        ],
+        "notes": "Could not identify a specific commercial POS system. Soho House uses a self-built payment service called 'House Pay' and has general IT support for 'POS and business applications'.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "vespertine",
+      "name": "Vespertine",
+      "neighborhood": "Culver City",
+      "cuisine": "Experimental",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "wait_time",
+            "quote": "Service was so slow. 4+ hours. We left after midnight. It's a bit pretentious too.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEu8Cl7xDt3FGWTdpBsumKrerrdcnUhaUPUERs5D81bLVMpWCi8KidY7k-q1heA1Iemtlxi0IbHeWR4JXdDjX_AwX7oHLXxkPKwH0GtWWkYQcEEjonpsNyncBQYL4Kf8pT7E8Xmr6PIivw1TnvX9JZYOIdDF2AthQGIX6JSaxqd",
+            "date": "2024-04"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "This coupled with a 10-15min wait between courses was putting me and every other diner to sleep.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEu8Cl7xDt3FGWTdpBsumKrerrdcnUhaUPUERs5D81bLVMpWCi8KidY7k-q1heA1Iemtlxi0IbHeWR4JXdDjX_AwX7oHLXxkPKwH0GtWWkYQcEEjonpsNyncBQYL4Kf8pT7E8Xmr6PIivw1TnvX9JZYOIdDF2AthQGIX6JSaxqd",
+            "date": "2024-04"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "What you take away from this four-hour-long, avant-garde tasting menu in Culver City depends on your perspective",
+            "source": "Bite! Eat! Repeat!",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHo34UuCvpiWDRFM0bHGB-pOwxoV_jmletk6lsfpSpKXjvJNTcwlzbev_cRXetki2mY5C4Hfzx0DkdxPVbUQpoa_PgxwXFgk86SDRm_slNWRm1du60nn_8PMiwJ7VT70P1cMl88e2mYH95jnKR5vCJov9CkyPmEA9nTG6g8R8oaxbIO2yDeVp2y8B6hxwuYqZAh-PlqX81fgJGzv2tUQaOG",
+            "date": "2024-06"
+          },
+          {
+            "issue": "billing",
+            "quote": "The tickets are expensive \u2014 $250 plus tax, obligatory tip, and supplements for wine pairings and after-dinner coffee and liqueurs in the garden \u2014 more than $1,000 for two, all told.",
+            "source": "Los Angeles Times",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjswrUOKA7I7OPmwCKlcPwKYf7rPW8UqAMuJqQwOHBgPUG9LMfJr-7nZQPWOzJUzN-iJPu4Hm-Fauw5Wt1MSWpWWTouxdrW_sJHvQplZYFxHSFSMm9XCmCYi1P4ifDR6ICV0EiJXVjFNLJH1ECVP-Wl0jM5H4vRIRM03Q-LO73f69m4QPK9metBSa1NToAH0eHbwg8s8o=",
+            "date": "2017-09"
+          },
+          {
+            "issue": "billing",
+            "quote": "They offer wine pairings but don't tell you the prices beforehand.",
+            "source": "SHANEA SAVOURS",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGrHqzeTOFiyLdGnnzCvrxf0XLQjuJgVKlcaYaQGbLG5gTxRhgjjaom39O4mnmbOzCQVGKoODLYaP6IZOUa8u0p5BAyHEk7osGd6OxZEbvSM4itF04Y7QKyEUxJj0SB_fllA_3EWVMEPZB4PtaERplKGHVKsbLCUw==",
+            "date": "2018-07"
+          },
+          {
+            "issue": "billing",
+            "quote": "Tasting menu is $395 per person. Options for beverage pairings, including a nonalcoholic option, run $125 to $550.",
+            "source": "Los Angeles Times",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHBqEV05-IyTLZtfbPxnQdCfw7Osv97o_0bP0rk_wzpL0_9GbFomtoo6RvO1y86uFjT0NXbNxiaRj1R-JB0iSq7ctHhYeWTfLz-4pFQdkl-ki_ZZtjBk4BYdctGnIGGnEznH_rUE5QjI4DisK4A7nDMynGs9iUS6jYId5Rod5iJs090Pd4l0zxrsdJuS8xp_ZGNo2fCgjulgviH4z-RPPJu-oGwog==",
+            "date": "2024-12"
+          }
+        ],
+        "notes": "No explicit POS system information was found. Reviews frequently highlight long dining experiences and high, sometimes ambiguously priced, beverage pairings.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "destroyer",
+      "name": "Destroyer",
+      "neighborhood": "Culver City",
+      "cuisine": "Nordic Modern",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "high",
+          "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgxwzPdn-uwYCbqxKVMwB_RsbBijdJe7Rcu4p4m7XaXspXPLeE7utDdP6NI35DY1ZiZr3f_od16Z_r1jq18NzygmsugUreWRR_KkvcGJqK46dWaDLz928E0u-SW1adUZcg3hs-I7JcS6jwqXXSf03OCknuIx5GLW9n5fVEKVdALxquk5xIJlHeV1Fd0122E4KYFpBApAGvv8zuiis1C0qUqh-_rn6iL9OcS0la0fWB2PBZXweW9Ma0",
+          "evidence_quote": "Destroyer operates a cash-only payment policy, which may be inconvenient for some guests."
+        },
+        "reviews": [
+          {
+            "issue": "wait_time",
+            "quote": "Waited too long, overpriced, not enough seating so I ended up frying in the sun. The food I got was just meh.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGML-tf35xofj8VlDRNb2uBFOuKdW9V2QpQYa7F_txLKAflyEGLtPYSrjrzr_dEKLe2HL57tQL5WX70OpcIP8kUzESoQbud8804rYfrWbyYOFF0HVE524mOS6JP1CW83KK2Fw-ZTS2LvtE0jTVN0GCtG_y24E2_XgpxhQBR1089a18i1NLgGVbhck4QaMgXbznctWebMZMA5ii7TJ9C-4IjBBE",
+            "date": "2024-08"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "the pricey, counter service-style daytime caf\u00e9 never fails to draw a crowd on late weekend mornings, so be prepared to wait for a seat to eat your strikingly plated food",
+            "source": "Time Out",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3rAuGH7A5efrdB2KuUHu21BI8Th6v-rUNgsOyesBUwqQ2W-6xBsM0P7NQabpkqDd04FF_bg4ZknrTXTuMyLZ2js8pDXcFVUf_VaxEdCCvFmkx9bnnC6pqrWd3oksPO8SMCv8qzywkGUt9j1Bn2CdlPYghKg==",
+            "date": "2025-03"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "Yeah I wanted to like this place but it was not worth the wait nor the price.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHabLDUt1wYoW9URFoLAJWwSKMUOVmLNLhZq4HfmmviL6IpRNoTE4w6K37q-XawgqzTj3OaSbma-P00WRw8KMlyKKzx4jJPc8WPbtcccv7sVqDz6J-ZtBE0rgmkoJVO7YyOFOOW6JTDtenNpJmtdsWx-6ki4PgzcqanHqWIyqB_tBdWS9RWt7MOhq0q8otO4IDIJA==",
+            "date": "2025-09"
+          },
+          {
+            "issue": "billing",
+            "quote": "Don't forget, Destroyer is one of those places that charges a 4% fee on top of all their prices\u2014you know, for employee health.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGML-tf35xofj8VlDRNb2uBFOuKdW9V2QpQYa7F_txLKAflyEGLtPYSrjrzr_dEKLe2HL57tQL5WX70OpcIP8kUzESoQbud8804rYfrWbyYOFF0HVE524mOS6JP1CW83KK2Fw-ZTS2LvtE0jTVN0GCtG_y24E2_XgpxhQBR1089a18i1NLgGVbhck4QaMgXbznctWebMZMA5ii7TJ9C-4IjBBE",
+            "date": "2024-08"
+          },
+          {
+            "issue": "billing",
+            "quote": "What in my cats butthole is a Healthy LA tax? gladamirflint. \u2022 3y ago. Apparently it's employee healthcare tax fee.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnXbsJlkH-q4q6yN2SPtKCgW17m9jNUOnqqvq1Hy3KX3iOSkqU5cwyUBOElhJTHmbHpb5iPCPIOs4PHcWymQq7hM6kGtu_aFLqnfPIBVGyVurkUUq_0NxDmlE_zwo6d3stb3zSZuEpXGG61Fiz4bP_bt62NorUyeXklMhIDh4u5cLboFjpZtQ_pO027Tnb54gRaSnlzvLvhVwaEbT0BC-G5f-S",
+            "date": "2023-05"
+          }
+        ],
+        "notes": "Destroyer in Culver City operates on a cash-only policy. Reviews frequently mention long wait times and a 'Healthy LA' fee added to bills.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": [
+          {
+            "title": "novacircle.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgxwzPdn-uwYCbqxKVMwB_RsbBijdJe7Rcu4p4m7XaXspXPLeE7utDdP6NI35DY1ZiZr3f_od16Z_r1jq18NzygmsugUreWRR_KkvcGJqK46dWaDLz928E0u-SW1adUZcg3hs-I7JcS6jwqXXSf03OCknuIx5GLW9n5fVEKVdALxquk5xIJlHeV1Fd0122E4KYFpBApAGvv8zuiis1C0qUqh-_rn6iL9OcS0la0fWB2PBZXweW9Ma0"
+          },
+          {
+            "title": "reddit.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGML-tf35xofj8VlDRNb2uBFOuKdW9V2QpQYa7F_txLKAflyEGLtPYSrjrzr_dEKLe2HL57tQL5WX70OpcIP8kUzESoQbud8804rYfrWbyYOFF0HVE524mOS6JP1CW83KK2Fw-ZTS2LvtE0jTVN0GCtG_y24E2_XgpxhQBR1089a18i1NLgGVbhck4QaMgXbznctWebMZMA5ii7TJ9C-4IjBBE="
+          },
+          {
+            "title": "timeout.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG3rAuGH7A5efrdB2KuUHu21BI8Th6v-rUNgsOyesBUwqQ2W-6xBsM0P7NQabpkqDd04FF_bg4ZknrTXTuMyLZ2js8pDXcFVUf_VaxEdCCvFmkx9bnnC6pqrWd3oksPO8SMCv8qzywkGUt9j1Bn2CdlPYghKg=="
+          },
+          {
+            "title": "reddit.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHabLDUt1wYoW9URFoLAJWwSKMUOVmLNLhZq4HfmmviL6IpRNoTE4w6K37q-XawgqzTj3OaSbma-P00WRw8KMlyKKzx4jJPc8WPbtcccv7sVqDz6J-ZtBE0rgmkoJVO7YyOFOOW6JTDtenNpJmtdsWx-6ki4PgzcqanHqWIyqB_tBdWS9RWt7MOhq0q8otO4IDIJA=="
+          },
+          {
+            "title": "reddit.com",
+            "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEnXbsJlkH-q4q6yN2SPtKCgW17m9jNUOnqqvq1Hy3KX3iOSkqU5cwyUBOElhJTHmbHpb5iPCPIOs4PHcWymQq7hM6kGtu_aFLqnfPIBVGyVurkUUq_0NxDmlE_zwo6d3stb3zSZwEpXGG61Fiz4bP_bt62NorUyeXklMhIDh4u5cLboFjpZtQ_pO027Tnb54gRaSnlzvLvhVwaEbT0BC-G5f-S"
+          }
+        ]
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "hiho-cheeseburger",
+      "name": "HiHo Cheeseburger",
+      "neighborhood": "Santa Monica",
+      "cuisine": "Burgers",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "wait_time",
+            "quote": "Visit during off-peak hours to avoid long waits as it can get busy",
+            "source": "Wanderlog",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2jftRonKfa3zSAbJmWKFxE7DJSMmRKDcFrSrIwMMtxT6SgyYAkZL7GOK8j7lpKuEwLCuP1NV113EDic6SHiU6TktVHAcdVcIgbzxQROqtKqS8Ytr5qi3go8wSdXMCxF03mv9L7Ur9DdGcRHFj8k0Pc3dsBKlGJ8Hs1FCm7IkpHJQb9MbK",
+            "date": null
+          },
+          {
+            "issue": "billing",
+            "quote": "Be aware that there is an added fee included in your bill for tipping purposes.",
+            "source": "Wanderlog",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF2jftRonKfa3zSAbJmWKFxE7DJSMmRKDcFrSrIwMMtxT6SgyYAkZL7GOK8j7lpKuEwLCuP1NV113EDic6SHiU6TktVHAcdVcIgbzxQROqtKqS8Ytr5qi3go8wSdXMCxF03mv9L7Ur9DdGcRHFj8k0Pc3dsBKlGJ8Hs1FCm7IkpHJQb9MbK",
+            "date": null
+          },
+          {
+            "issue": "billing",
+            "quote": "All orders will have the standard HiHo 6% fee added to your bill. This is not a gratuity or tip.",
+            "source": "HiHo Cheeseburger",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED-wuHXtCf9g5nymMax8wbSxJuD3q74J2zff324wfdxo750qdnTBVOyZ66miN8sMZ9y9dIa0uuXIoAgejMSPzHU0uobP0pXrfEHEpXo0x1KY_wfFjynztoTHF6VX9hD8Q5poQtjgS39NkH_P-u3z91NxRcTZOggOnLKuGEOT39_V5fO_9QBwtNohHaICVJ",
+            "date": null
+          },
+          {
+            "issue": "billing",
+            "quote": "We are a no-tipping establishment.",
+            "source": "HiHo Cheeseburger",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED-wuHXtCf9g5nymMax8wbSxJuD3q74J2zff324wfdxo750qdnTBVOyZ66miN8sMZ9y9dIa0uuXIoAgejMSPzHU0uobP0pXrfEHEpXo0x1KY_wfFjynztoTHF6VX9hD8Q5poQtjgS39NkH_P-u3z91NxRcTZOggOnLKuGEOT39_V5fO_9QBwtNohHaICVJ",
+            "date": null
+          },
+          {
+            "issue": "billing",
+            "quote": "Also, 6% service charge, no tipping.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4EJRZIKtPLvmW-3WOhrZaG8BtjiHiKzs0bgxzTncQLWQHIQdK9akpVXrJ8CKUbfJLmz1UvQpmcIP-EuIz2Nfk_GdNFL71nh2rac6RoDartAYtp9EyxBoNQg2pf1q5kOAavFkzW_xSwKGUZ9aBEPTARQZLSriZvQ86W6dztMZOYXPaeDwBPEBKlOXfzsAVcOK-p7iGT-ZKtw==",
+            "date": "2025"
+          }
+        ],
+        "notes": "No information was found regarding the Point of Sale system used by HiHo Cheeseburger.",
+        "_model": "gemini-2.5-flash-lite",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "quarter-sheets",
+      "name": "Quarter Sheets",
+      "neighborhood": "Echo Park",
+      "cuisine": "Pizza",
+      "data": {
+        "pos": {
+          "system": "Resy",
+          "confidence": "medium",
+          "evidence_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXJO1_J6P-FoOidQXzby0tA-etUY3ko1-jCnTOA3d5-AEmT_tvEylCpM9mCj1OJXJohDIH4nLQi10pBbOs2pZGIiIegwRRV_P2HFIF6lCwzZgDmjdwsvpAiKujz_51ALDNGbLG9inBb2pfX8oflR-MEXLqGr2rTFT75McA39Lq_yJCGic4xofCvEtIwCOm4E5q6_Gs4l1MDyvxM5ycOMpe",
+          "evidence_quote": "In early 2024, Quarter Sheets started implementing dine-in reservations through RESY but prior to that, it was first-come first-served."
+        },
+        "reviews": [
+          {
+            "issue": "wait_time",
+            "quote": "In January 2022, when Quarter Sheets officially opened its doors, the wait time could be up to two hours.",
+            "source": "Mariana in LA Blog",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXJO1_J6P-FoOidQXzby0tA-etUY3ko1-jCnTOA3d5-AEmT_tvEylCpM9mCj1OJXJohDIH4nLQi10pBbOs2pZGIiIegwRRV_P2HFIF6lCwzZgDmjdwsvpAiKujz_51ALDNGbLG9inBb2pfX8oflR-MEXLqGr2rTFT75McA39Lq_yJCGic4xofCvEtIwCOm4E5q6_Gs4l1MDyvxM5ycOMpe",
+            "date": "2022"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "Imagine driving to echo park to wait in a long line because reservations are hard to get since the place is so small with limited tables, then, once you get to the host they tell you it is a two hour wait",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFIjLyFvbtqQKSOCM9A09Q8tumqQRyG_FBCmcnuI3XypyMgfDsmvGrayd82lvP6_pi-0M8K299UO1pCFqhB2TcCdv7sOVvveT8fjtNPRB1DN9O94U199ofbCuOiENDsUl-X3DhIuZRsOj6isrUvxZxFGhU8-BtWxBww3uf0drj8o9nDRlJp9gs6W3iXSj3itIFbeTpQYY-2VetGMw7vSjX",
+            "date": "2025-03"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "The first time I visited with some friends, reservations weren't accepted. So we got there early and waited a little under an hour to be seated.",
+            "source": "Plate & Compass Blog",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGU0zDGmYRR_qKijOF23hrLTFG3g7_P7FYanCy-68uBlDcv5Q3PF9NfBkYxQd9iZdumaTMrEhJAKg5LUoLjaf-HFzKxy9T-rAhZ5KmEzvHxpTTclFPB5x0lxpvA_CzS6wOhiuFdfsIgmjiJ_SYTwhQNlEiipp5nDuNr0oHri9MO",
+            "date": "2024-07"
+          },
+          {
+            "issue": "billing",
+            "quote": "A customer who ordered takeout uploaded this picture of her bill. I'm all about paying more for quality, but $100 for two pizzas and a slice of cake is excessive, especially for takeout.",
+            "source": "Mariana in LA Blog",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXJO1_J6P-FoOidQXzby0tA-etUY3ko1-jCnTOA3d5-AEmT_tvEylCpM9mCj1OJXJohDIH4nLQi10pBbOs2pZGIiIegwRRV_P2HFIF6lCwzZgDmjdwsvpAiKujz_51ALDNGbLG9inBb2pfX8oflR-MEXLqGr2rTFT75McA39Lq_yJCGic4xofCvEtIwCOm4E5q6_Gs4l1MDyvxM5ycOMpe",
+            "date": "2025-06"
+          },
+          {
+            "issue": "billing",
+            "quote": "What's this QSPC processing fee that dine-in doesnt have to pay?",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgWcR555fZFVeAkvOzw6oCqj72DHoG2LWY4ir65oq2lff12N1R_nQH7bWCtX2ljXPtGPGf39Lu22RikpQr-EGbhzkb3uWBxY-mf7NDUTfIJutgzlnhV9uDdOA28VHQPJVmlBCJJLRmLd3CkgVI3FNpbfUgb6SdyW79ZytzaOpKz4i4SC9H1GPJhR9yEqDKZw6yY9VkYZ69IeIP15wMnibBdUCjhIdA",
+            "date": "2024-04"
+          },
+          {
+            "issue": "tipping",
+            "quote": "Maybe I should have tipped less, but it was the cheapest option of the 3 (15, 18, and 20 percent respectively).",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGr1L6pXDpfLBVIrmDswRtNTVleGcYtggNCyw9aE6qPLRsYT4ESglrjBTL5LPEw-9u2ceaNBiV70fDl5VBW-yKUt20ULxfrud7UTmiaKkJggdhAThFZN8WXTBwee3jwY0RDKUQ81sTIj9GagAYdTHFeDNgnKfj12NjSTucVdQ9uQ74b4ET7WjrSG7Yoybfl_2uGgioKHZ_wlLX26WD4w-QgKwSVGg==",
+            "date": "2026-03"
+          },
+          {
+            "issue": "pos",
+            "quote": "Also took a long time for them to leave because the waiter didn't take the card reader back or something like that but could've just walked up to them with it and left.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFgWcR555fZFVeAkvOzw6oCqj72DHoG2LWY4ir65oq2lff12N1R_nQH7bWCtX2ljXPtGPGf39Lu22RikpQr-EGbhzkb3uWBxY-mf7NDUTfIJutgzlnhV9uDdOA28VHQPJVmlBCJJLRmLd3CkgVI3FNpbfUgb6SdyW79ZytzaOpKz4i4SC9H1GPJhR9yEqDKZw6yY9VkYZ69IeIP15wMnibBdUCjhIdA",
+            "date": "2024-04"
+          }
+        ],
+        "notes": "Quarter Sheets uses Resy for reservations. Reviews frequently mention long wait times, and there are mentions of takeout fees and perceived high prices, as well as a slow payment process.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "bacetti",
+      "name": "Bacetti",
+      "neighborhood": "Echo Park",
+      "cuisine": "Italian",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "tipping",
+            "quote": "Tipping is not optional as a 20% gratuity is added to your check.",
+            "source": "The Global Adventures of MaiTai Tom and Tracy",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEm9IIEILuWO7kg6xpANiN0YNU6PilCM8NS9IwThNjRmzctb6RMqk8lHfqLJTfYd2wHHPKNtc_fjd2gxaUJKESl0KCQn_VmEbIxXldQyLI42B7fwnjWYyJapOjmFdD8hLCbaLq_Er7GE0J-D7p-_t6DMpkO05g=",
+            "date": "2022-08"
+          },
+          {
+            "issue": "billing",
+            "quote": "Guest checks include 20% gratuity, the entirety of which goes to our staff--grazie!",
+            "source": "Resy",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGLBCZOaDvzGY-HLV184BlQwbs3SAcxLOmCiwzgG7vXl94hEO-fnNYL8gtoi8DKYR0RkQSVly6uDNpT2myFHhkZfOAavLqOLjRxJMAPM2ojJbaG99Hc_ZZ7wXptQx84K-5q20NtE_Rpcpdu9QNeLl3G",
+            "date": null
+          },
+          {
+            "issue": "wait_time",
+            "quote": "The wait time was just about what they said , we got the text about 15 mins earlier than estimated.",
+            "source": "Wanderlog",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUUUr1X5jA3Buqz0Rel_4-BvH6yvmT78ykLqQi2Kfat4LYqQQrcvmCDJqkjqnIzmpQyoGQfJEYNUyr9pbJbNWw2RtadjKBRGBjEKcRJZkJPAUBZcffuNUnfmCtEZXvxXO7xhePNRoQr_BrApwHp8mikoB8Qn_g_c4=",
+            "date": null
+          },
+          {
+            "issue": "pos",
+            "quote": "And don't try to pay with cash, not accepted here.",
+            "source": "The Global Adventures of MaiTai Tom and Tracy",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEm9IIEILuWO7kg6xpANiN0YNU6PilCM8NS9IwThNjRmzctb6RMqk8lHfqLJTfYd2wHHPKNtc_fjd2gxaUJKESl0KCQn_VmEbIxXldQyLI42B7fwnjWYyJapOjmFdD8hLCbaLq_Er7GE0J-D7p-_t6DMpkO05g=",
+            "date": "2022-08"
+          }
+        ],
+        "notes": "No specific POS system was identified, but the restaurant uses Resy for reservations and has a mandatory 20% gratuity policy.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "tsubaki",
+      "name": "Tsubaki",
+      "neighborhood": "Echo Park",
+      "cuisine": "Japanese",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "tipping",
+            "quote": "When the bill came, they added 18% to my $200+ bill (before tax). But the bill said it was \u201cnot a gratuity or tip.\u201d I left a little confused.",
+            "source": "Food Talk Central",
+            "source_url": "https://www.foodtalkcentral.com/t/tsubaki-echo-park/3697/64",
+            "date": "2017-02",
+            "cite": 4
+          },
+          {
+            "issue": "tipping",
+            "quote": "The ambiguity is very unfriendly to customers and FOH who are left to try to navigate this.",
+            "source": "Food Talk Central",
+            "source_url": "https://www.foodtalkcentral.com/t/tsubaki-echo-park/3697/64",
+            "date": "2017-02",
+            "cite": 4
+          },
+          {
+            "issue": "wait_time",
+            "quote": "My only complaint is that the kitchen does some weird things with batch-cooking... we waited sort of a long time for yakisoba, only to be served it at the exact same time as guests who'd sat down thirty minutes later.",
+            "source": "Food Talk Central",
+            "source_url": "https://www.foodtalkcentral.com/t/tsubaki-echo-park/3697/64",
+            "date": "2017-02",
+            "cite": 4
+          },
+          {
+            "issue": "billing",
+            "quote": "I thought it was better than average when I ate there, but felt regret after I paid the bill.",
+            "source": "Reddit",
+            "source_url": "https://www.reddit.com/r/FoodLosAngeles/comments/1c9371e/tsubaki_an_honest_review/",
+            "date": "2025-04",
+            "cite": 2
+          },
+          {
+            "issue": "billing",
+            "quote": "I don't believe the prices make sense for the portions, I don't mind paying a premium, but neither flavor nor portions justify the experience.",
+            "source": "Reddit",
+            "source_url": "https://www.reddit.com/r/FoodLosAngeles/comments/1c9371e/tsubaki_an_honest_review/",
+            "date": "2025-04",
+            "cite": 2
+          }
+        ],
+        "notes": "No POS system information was found. Reviews highlight confusion around service charges/tipping and occasional kitchen pacing issues, as well as value perception.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    },
+    {
+      "id": "nmnaka",
+      "name": "n/naka",
+      "neighborhood": "Palms",
+      "cuisine": "Japanese Kaiseki",
+      "data": {
+        "pos": {
+          "system": "Unknown",
+          "confidence": "none",
+          "evidence_url": null,
+          "evidence_quote": null
+        },
+        "reviews": [
+          {
+            "issue": "wait_time",
+            "quote": "I was waiting for 1 PM to hit so I could hop on OpenTable and scramble to book a reservation for two. My friend, who actually lives in LA, was waiting to do the same. This was our third attempt \u2013 the demand for a table here is no joke.",
+            "source": "Wholesomm",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGTC6ks3gEhXqC8BRfakNpQ97JvFHhAgnsfh5XWDea517qmSqMDob_b_MlFdTJOikH-zZCEVzqyNdyyz2hA0okIwruTEKkhwfsPE531J8G6UZPJSQ9mk5-zAQDyduIBHEv1jmxG7eoWqum1rCGDM0T8xw==",
+            "date": "2025"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "For several weekends in a row, my attempt to get a table for this review plagued me the moment I woke up every Sunday morning\u2014the one day a week that n/naka releases its month-in-advance reservations.",
+            "source": "Time Out",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGNVxDi-B_K9p4B7pRH0nRuTxCALTQzSN84jilE8QIOhvR2svI01G5C6V7IGtVzbGGNNVeDUM7WIFM8k-VGhNhdS0NmYDrB1T2L-1qUkNxtBoYJ7nyF1kMdjGkEUi3dHeGPFHtcpogJ6ALQ8rTwtw==",
+            "date": "2025-02"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "I've been trying to get into n/naka on every visit I've made to LA for the last 10 years. So it was gratifying to finally be able to snag a reservation this time.",
+            "source": "Forking Orlando",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGL-DVF8GNKDd3JktQ4D4gjY_kysoq7s0gm_xhxeY18oGM2DbkSS4B8HhwNTMorD6oYQ96jmfxiOdeiI1Il7-ED_ee9TLDAoVetdM6H8rnSWfpF7QhfLUGp3PMEaW7sQSXzQgaPOWPi",
+            "date": "2025-10"
+          },
+          {
+            "issue": "wait_time",
+            "quote": "Any tips you can share about making reservations? I've tried a few times to make reservations at the exact moment when they are released but they are always all booked up. Waitlists are also difficult to book.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLWcY4d6doxaBvhgLj3rUvBIQLaZeN5_jY92o0MA9KLT92BAqmREhNfoz4KVUkeMNyhaNotc-1iU5OAI2J4AxCtKuw_rtezSLu8BB3nNYsYxFAlwSuU3eeysZ1ShGrElIe-mkkG6HbvlINwJUyFRzZlRJ5gHczlQyCYFHwXc5v",
+            "date": "2023-01"
+          },
+          {
+            "issue": "billing",
+            "quote": "The cost was a not unreasonable $38, plus 9.5% tax and an optional 20% tip.",
+            "source": "kevinEats",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoGcQjqSgNOyLRuecJSB5aOVEN2cbPaaRyYiPdk0WNVW0LeQ47Qx60CNMJzOA3Sw2vFKkuELCQ1hPrNrrvRF2tGGkPfilSDUXbQ6qVbH0x-aIWkDRd7BGrenRkCJvchc_j7CXxL60SfHIP2NRNorWuF8JO29jc",
+            "date": "2020-06"
+          },
+          {
+            "issue": "billing",
+            "quote": "It's $310 before tax, tip and drinks so I'd guess it was around $500 per person in the end. Update : my friend texted me the final bill and it was 465 / person.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLWcY4d6doxaBvhgLj3rUvBIQLaZeN5_jY92o0MA9KLT92BAqmREhNfoz4KVUkeMNyhaNotc-1iU5OAI2J4AxCtKuw_rtezSLu8BB3nNYsYxFAlwSuU3eeysZ1ShGrElIe-mkkG6HbvlINwJUyFRzZlRJ5gHczlQyCYFHwXc5v",
+            "date": "2023-01"
+          },
+          {
+            "issue": "billing",
+            "quote": "Cancellation fee is $85 per person if you don't give them enough notice.",
+            "source": "Westside Mommy",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPscq3RTmjVB-9R7WlnemPvKZJQ_QHn54lu7bzNdFw6srda9FF9c7a6DJMRcLplxgecOlT32f04Qb60t2uZpgtxV0yJZt9zDl0mN3-xsQmvK7CVHVIROxu8vkwJEDK5yphjupOYZsU6UuaR9WXD76Xp5yEQaaS",
+            "date": "2016-09"
+          },
+          {
+            "issue": "billing",
+            "quote": "Not able to make our reservation, already paid the $100 per person deposit.",
+            "source": "Reddit",
+            "source_url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHmXiPB0fOEQq0l2zoeMDGEzyDyT_HL0cdUdnlP5_lcV314I9YFvEf-IakjhyIo8KKfY7ScVkbwSqrxDCSBZaqxgCnj-wf886iWyeIYB5EWhjWVbeEClnxDYj_IW8XHQjWXAzaCtMuc9RwaBStoYEkmULQ5NxKWNdm8-Ylnew-_nDwZaxZS4iGvUk7BPZ9RFexjpg1i-HWneeYlQ81UOe8lcNHEaPc=",
+            "date": "2023-03"
+          }
+        ],
+        "notes": "No information about n/naka's specific POS system was found. Reviews consistently highlight the extreme difficulty in securing reservations and mention deposits and cancellation fees related to billing.",
+        "_model": "gemini-2.5-flash",
+        "_grounding_citations": []
+      },
+      "is_prospect": true
+    }
+  ]
+}

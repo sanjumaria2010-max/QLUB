@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Qlub · LA Market Intelligence — How to Use</title>
+<style>
+  @page { size: 1600px 1100px; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #0e0d13;
+    background: #faf8f5;
+  }
+  .slide {
+    width: 1600px;
+    height: 1100px;
+    padding: 60px 70px;
+    page-break-after: always;
+    position: relative;
+    overflow: hidden;
+    background: #faf8f5;
+    display: flex;
+    flex-direction: column;
+  }
+  .slide:last-child { page-break-after: auto; }
+  .slide-num {
+    position: absolute;
+    top: 40px;
+    right: 60px;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #7d00b5;
+    font-weight: 800;
+  }
+  .kicker {
+    font-size: 13px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #7d00b5;
+    font-weight: 800;
+    margin-bottom: 12px;
+  }
+  h1 {
+    font-size: 64px;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    font-weight: 900;
+    margin-bottom: 18px;
+  }
+  h1 .accent { color: #7d00b5; }
+  h2 {
+    font-size: 36px;
+    line-height: 1.1;
+    font-weight: 900;
+    margin-bottom: 14px;
+    letter-spacing: -0.01em;
+  }
+  p.lead {
+    font-size: 18px;
+    line-height: 1.55;
+    color: #4b5563;
+    max-width: 920px;
+    margin-bottom: 24px;
+  }
+  .layout {
+    display: flex;
+    gap: 36px;
+    flex: 1;
+    min-height: 0;
+  }
+  .layout-text { width: 460px; flex-shrink: 0; }
+  .layout-img { flex: 1; min-height: 0; }
+  .shot {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: top left;
+    border: 1px solid #e8e5e0;
+    border-radius: 16px;
+    box-shadow: 0 18px 40px -18px rgba(125,0,181,0.18);
+    background: #fff;
+  }
+  ul.steps {
+    list-style: none;
+    counter-reset: step;
+  }
+  ul.steps li {
+    counter-increment: step;
+    padding: 14px 0 14px 48px;
+    position: relative;
+    font-size: 16px;
+    line-height: 1.5;
+    border-bottom: 1px solid #e8e5e0;
+  }
+  ul.steps li:last-child { border-bottom: none; }
+  ul.steps li::before {
+    content: counter(step);
+    position: absolute;
+    left: 0; top: 12px;
+    width: 32px; height: 32px;
+    background: #7d00b5;
+    color: #fff;
+    font-weight: 900;
+    border-radius: 999px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 14px;
+  }
+  ul.bullets { list-style: none; }
+  ul.bullets li {
+    padding: 10px 0 10px 24px;
+    position: relative;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  ul.bullets li::before {
+    content: "";
+    position: absolute;
+    left: 4px; top: 18px;
+    width: 8px; height: 8px;
+    background: #10b981;
+    border-radius: 50%;
+  }
+  .feature-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-top: 24px;
+  }
+  .feature-card {
+    background: #fff;
+    border: 1px solid #e8e5e0;
+    border-radius: 18px;
+    padding: 28px;
+  }
+  .feature-card h3 {
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #7d00b5;
+    margin-bottom: 8px;
+  }
+  .feature-card p { font-size: 15px; color: #4b5563; line-height: 1.5; }
+  .label-chip {
+    display: inline-block;
+    padding: 6px 14px;
+    background: #f3e8ff;
+    color: #7d00b5;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+  }
+  /* Cover slide */
+  .cover {
+    background: linear-gradient(135deg, #0e0d13 0%, #1d0d28 60%, #2c0a3e 100%);
+    color: #fff;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 100px;
+  }
+  .cover .kicker { color: #c084fc; }
+  .cover h1 { font-size: 96px; color: #fff; }
+  .cover h1 .accent { color: #c084fc; }
+  .cover p.lead { color: rgba(255,255,255,0.7); max-width: 800px; font-size: 22px; }
+  .cover .meta {
+    margin-top: 60px;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.5);
+  }
+  .stat-row {
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+  }
+  .stat {
+    background: #fff;
+    border: 1px solid #e8e5e0;
+    border-radius: 14px;
+    padding: 18px 22px;
+    flex: 1;
+  }
+  .stat .v { font-size: 32px; font-weight: 900; color: #7d00b5; line-height: 1; }
+  .stat .l { font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #6b7280; margin-top: 8px; font-weight: 700; }
+  .footer-tag {
+    position: absolute;
+    bottom: 30px;
+    left: 70px;
+    font-size: 10px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #9ca3af;
+  }
+</style>
+</head>
+<body>
+
+<!-- COVER -->
+<section class="slide cover">
+  <div class="kicker">Qlub × NYU Stern · LA Market Intelligence</div>
+  <h1>HOW TO<br/><span class="accent">USE.</span></h1>
+  <p class="lead">A 10-step product walkthrough of the LA Market Intelligence Dashboard — login through outreach. Every screen, every filter, every export, every button. No fluff.</p>
+  <div class="meta">v0.9.2 · Build 2026.04 · prepared for the Qlub LA team</div>
+</section>
+
+<!-- 1 LOGIN -->
+<section class="slide">
+  <div class="slide-num">01 / 10 · Access</div>
+  <div class="kicker">Step 1 — Gated Login</div>
+  <h1>Sign in with email & password</h1>
+  <div class="layout">
+    <div class="layout-text">
+      <p class="lead">The dashboard is gated to protect proprietary research. Use the credentials issued to your team.</p>
+      <ul class="steps">
+        <li><strong>Open the dashboard URL</strong> in any modern browser.</li>
+        <li>Enter your <strong>email</strong> (e.g. <code>la@qlub.com</code>).</li>
+        <li>Enter your <strong>password</strong>.</li>
+        <li>Click <strong>ENTER</strong> — you're in. Token is cached for the session.</li>
+      </ul>
+      <div class="stat-row">
+        <div class="stat"><div class="v">Email</div><div class="l">la@qlub.com</div></div>
+        <div class="stat"><div class="v">Password</div><div class="l">qlub2026</div></div>
+      </div>
+    </div>
+    <div class="layout-img"><img class="shot" src="/deck/01-login.jpeg" /></div>
+  </div>
+</section>
+
+<!-- 2 OVERVIEW -->
+<section class="slide">
+  <div class="slide-num">02 / 10 · Overview</div>
+  <div class="kicker">Page 1 — LA Market Intelligence Hub</div>
+  <h1>Your one-page <span class="accent">briefing</span></h1>
+  <div class="layout">
+    <div class="layout-text">
+      <p class="lead">The Overview tells the story in four blocks: thesis, market reach, performance index, and the LA density map.</p>
+      <ul class="bullets">
+        <li><strong>Strategic Intelligence</strong> — the one-line GTM thesis.</li>
+        <li><strong>Market Reach (31K)</strong> — total addressable LA tables, in real-time growth sync.</li>
+        <li><strong>Performance Index</strong> — 4 KPIs (Target Velocity, Revenue Efficiency, Checkout Time, Friction). Hover the (i) icon on any metric for a 1-line plain-English explanation.</li>
+        <li><strong>LA Restaurant Density Map</strong> — neighborhood-level prospect counts.</li>
+      </ul>
+    </div>
+    <div class="layout-img"><img class="shot" src="/deck/02-overview.jpeg" /></div>
+  </div>
+</section>
+
+<!-- 3 ICP -->
+<section class="slide">
+  <div class="slide-num">03 / 10 · ICP</div>
+  <div class="kicker">Page 2 — Ideal Customer Profile</div>
+  <h1>Who Qlub <span class="accent">wins with</span></h1>
+  <div class="layout">
+    <div class="layout-text">
+      <p class="lead">Six honest, generic attributes — no fake scoring. Plus a hard <strong>Anti-ICP</strong> list so SDRs know who to walk away from on the first call.</p>
+      <div class="feature-grid">
+        <div class="feature-card"><h3>Target Attributes</h3><p>Modern POS, integration-ready, high-velocity service, close-out pain, prime location, guest-first operator.</p></div>
+        <div class="feature-card"><h3>Anti-ICP</h3><p>QSR, legacy POS, tasting-only, chain procurement, zero review presence — say no early.</p></div>
+      </div>
+    </div>
+    <div class="layout-img"><img class="shot" src="/deck/03-icp.jpeg" /></div>
+  </div>
+</section>
+
+<!-- 4 EXPO -->
+<section class="slide">
+  <div class="slide-num">04 / 10 · Restaurant Expo</div>
+  <div class="kicker">Page 3 — Lead Database</div>
+  <h1>The <span class="accent">prospect list</span></h1>
+  <div class="layout">
+    <div class="layout-text">
+      <p class="lead">65 real LA venues — 50 prospects + 15 anti-segment cash-only. POS systems shown only when a public citation exists; otherwise it reads <em>"POS not detected"</em>. No guesses.</p>
+      <ul class="bullets">
+        <li><strong>Search</strong> by name, cuisine, or neighborhood.</li>
+        <li><strong>Region</strong>, <strong>Cuisine</strong>, <strong>POS</strong>, <strong>Segment</strong> filters — combine freely.</li>
+        <li><strong>Valuation column</strong> shows public revenue estimates.</li>
+        <li><strong>Click any row</strong> for the detail modal with POS evidence URL + Qlub fit verdict.</li>
+      </ul>
+    </div>
+    <div class="layout-img"><img class="shot" src="/deck/04-expo.jpeg" /></div>
+  </div>
+</section>
+
+<!-- 5 PROSPECT LOGIC -->
+<section class="slide">
+  <div class="slide-num">05 / 10 · Prospect Logic</div>
+  <div class="kicker">How we classify a Qlub Prospect</div>
+  <h1>The 3-rule <span class="accent">qualification</span></h1>
+  <div class="layout">
+    <div class="layout-text">
+      <p class="lead">Click <strong>"How we classify a Qlub Prospect"</strong> in the source panel to expand the explainer. A venue must meet all three:</p>
+      <ul class="steps">
+        <li><strong>Sit-down / full-service</strong> — Qlub is a pay-at-table product.</li>
+        <li><strong>Modern POS</strong> with an integration path (Toast, Micros, Square, Clover, Aloha, TouchBistro) — or unverified but format fits, so an SDR can confirm in a 2-minute call.</li>
+        <li><strong>≥ 1 close-out / billing / wait-time pain point</strong> in public reviews — the exact friction Qlub removes.</li>
+      </ul>
+      <p class="lead" style="margin-top:18px"><em>Cash-only / food-truck / pop-up venues are marked Anti-Segment because there's no POS to integrate with.</em></p>
+    </div>
+    <div class="layout-img"><img class="shot" src="/deck/05-expo-logic.jpeg" /></div>
+  </div>
+</section>
+
+<!-- 6 IMPORT EXCEL -->
+<section class="slide">
+  <div class="slide-num">06 / 10 · Bring Your Own Data</div>
+  <div class="kicker">Restaurant Expo · Import Excel</div>
+  <h1>Drop in <span class="accent">your own list</span></h1>
+  <div class="layout">
+    <div class="layout-text">
+      <p class="lead">Have an Excel sheet from a prior research sprint? Click <strong>IMPORT EXCEL</strong> (purple button, downward arrow) and the table re-populates instantly with your rows. Filters, table sort, and exports all work on the imported data.</p>
+      <ul class="bullets">
+        <li>Supported: <code>.xlsx</code>, <code>.xls</code>, <code>.csv</code></li>
+        <li>Recognized columns (case-insensitive): <code>Name, Neighborhood, Region, Cuisine, Valuation, POS, Segment</code></li>
+        <li>Click <strong>CLEAR IMPORT</strong> (X icon) to revert to the live LA dataset.</li>
+        <li>Then export back out as <strong>PDF</strong> or <strong>XLSX</strong>.</li>
+      </ul>
+    </div>
+    <div class="layout-img"><img class="shot" src="/deck/06-expo-filters.jpeg" /></div>
+  </div>
+</section>
+
+<!-- 7 EXPO DETAIL -->
+<section class="slide">
+  <div class="slide-num">07 / 10 · Detail View</div>
+  <div class="kicker">Restaurant Expo · Detail Modal</div>
+  <h1>One click. <span class="accent">Full firmographics.</span></h1>
+  <div class="layout">
+    <div class="layout-text">
+      <p class="lead">Click any row to open the detail modal. You see the venue's region, cuisine, valuation, POS verification status (with citation URL when verified), and Qlub's GTM verdict.</p>
+      <ul class="bullets">
+        <li><strong>POS Status</strong> — verified system + confidence + source link.</li>
+        <li><strong>Qlub Fit</strong> — 1-line ROI lead the SDR can use on the call.</li>
+        <li>Use <strong>Esc</strong> or click outside to close.</li>
+      </ul>
+    </div>
+    <div class="layout-img"><img class="shot" src="/deck/07-expo-detail.jpeg" /></div>
+  </div>
+</section>
+
+<!-- 8 VOC -->
+<section class="slide">
+  <div class="slide-num">08 / 10 · Voice of Customer</div>
+  <div class="kicker">Page 4 — What LA diners actually say</div>
+  <h1>211 real, <span class="accent">cited quotes</span></h1>
+  <div class="layout">
+    <div class="layout-text">
+      <p class="lead">Static snapshot of real customer reviews from Google, Yelp, Eater, Reddit, TripAdvisor — pulled via Gemini googleSearch grounding. Every quote is citeable.</p>
+      <ul class="bullets">
+        <li><strong>3 nested filters</strong>: Location → Restaurant → Issue.</li>
+        <li><strong>5 KPI tiles</strong>: Total quotes, POS Friction, Wait Time, Billing, Tipping.</li>
+        <li><strong>Each card</strong> shows restaurant, source, date, severity stars, the quote, and a <strong>VIEW</strong> link to the source.</li>
+        <li><strong>Hover</strong> any truncated text for the full string.</li>
+        <li><strong>Export</strong> the current view as CSV, PDF, or XLSX.</li>
+      </ul>
+    </div>
+    <div class="layout-img"><img class="shot" src="/deck/08-voc.jpeg" /></div>
+  </div>
+</section>
+
+<!-- 9 PITCH GENERATOR -->
+<section class="slide">
+  <div class="slide-num">09 / 10 · Outreach Agent</div>
+  <div class="kicker">Voice of Customer · Pitch Generator</div>
+  <h1>From insight <span class="accent">to email</span> — instantly</h1>
+  <div class="layout">
+    <div class="layout-text">
+      <p class="lead">The <strong>Closing Console</strong> sidebar is locked until you narrow to <strong>one specific restaurant</strong>. That guarantees the email is grounded in real, cited pain points for that venue.</p>
+      <ul class="steps">
+        <li>Pick a <strong>Location</strong> (e.g. Eastside).</li>
+        <li>Pick a <strong>Restaurant</strong> in that region (e.g. All Day Baby).</li>
+        <li>Sidebar flips to <strong>READY</strong> and shows the venue name.</li>
+        <li>Click <strong>GENERATE OUTREACH</strong> — Gemini drafts a subject + 120-word body.</li>
+        <li>Click <strong>COPY EMAIL</strong> and paste into Gmail / Outreach / Apollo.</li>
+      </ul>
+    </div>
+    <div class="layout-img"><img class="shot" src="/deck/09-voc-pitch-ready.jpeg" /></div>
+  </div>
+</section>
+
+<!-- 10 INSIGHTS -->
+<section class="slide">
+  <div class="slide-num">10 / 10 · Marketing Insights</div>
+  <div class="kicker">Page 5 — Pain → Revenue Recovery</div>
+  <h1>Quantify the <span class="accent">opportunity</span></h1>
+  <div class="layout">
+    <div class="layout-text">
+      <p class="lead">Translate the pain points into a dollar number. Use the <strong>Potential Recovery Calculator</strong> to model annual revenue recovered by removing checkout friction at any venue.</p>
+      <ul class="bullets">
+        <li>Slide the <strong>Total Tables</strong>, <strong>Avg. Check</strong>, and <strong>Check-drop Delay</strong> sliders.</li>
+        <li><strong>Annual Recovery Goal</strong> updates live (e.g. <strong>$112,200</strong> at 25 tables / $85 / 12-min delay).</li>
+        <li><strong>Pain Point Spectrum</strong> ranks the top 4 cited issues by intensity.</li>
+        <li><strong>Neighborhood Specifics</strong> shows where the pain (and therefore the upsell) is highest.</li>
+      </ul>
+    </div>
+    <div class="layout-img"><img class="shot" src="/deck/10-insights.jpeg" /></div>
+  </div>
+</section>
+
+<!-- BACK COVER -->
+<section class="slide cover">
+  <div class="kicker">That's the loop</div>
+  <h1>Login → Qualify →<br/><span class="accent">Pitch → Recover.</span></h1>
+  <p class="lead">Five pages. One thesis. Built so an SDR can go from cold prospect to grounded email in under 60 seconds.</p>
+  <div class="meta">Questions? Ping the LA Intelligence Unit · NYU Stern Research · 2026</div>
+</section>
+
+</body>
+</html>
