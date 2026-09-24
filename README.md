@@ -6,7 +6,7 @@
 
 Go-to-market intelligence dashboard for Qlub's Los Angeles launch. Turns a cold restaurant name into a qualified, evidence-backed, ready-to-send sales email in under 60 seconds ‚Äî qualifies the venue against a 3-rule ICP, surfaces cited diner complaints about checkout friction, drafts a grounded outreach email, and quantifies the revenue Qlub recovers.
 
-> **üöÄ Live Demo**: **[studio-to-emergent.preview.emergentagent.com](https://studio-to-emergent.preview.emergentagent.com)**
+> **Live Demo**: **[studio-to-emergent.preview.emergentagent.com](https://studio-to-emergent.preview.emergentagent.com)**
 > Click **Login** ¬∑ open **Voice of Customer** ¬∑ pick a restaurant ¬∑ click **Generate Outreach**
 
 ---
