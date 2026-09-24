@@ -267,6 +267,7 @@ _Revenue Recovery Calculator, pain-point spectrum, and neighborhood-level cost o
 Real Los Angeles venues and public diner reviews collected via **Gemini 2.5 googleSearch grounding** over Google, Yelp, Eater, Reddit, TripAdvisor, and press coverage. Venues span 23 neighborhoods across 9 regions — from Arts District fine dining to Boyle Heights taco trucks. POS systems are recorded only when a public citation was found; every quote retains its source URL and date. This is a static research snapshot, not live data.
 
 
+
 ---
 
 <sub>Built for Qlub × NYU Stern · React · Google Gemini · Emergent</sub>
