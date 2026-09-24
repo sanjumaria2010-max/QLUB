@@ -14,14 +14,16 @@ import MarketingInsights from "./pages/MarketingInsights";
 import { api } from "./lib/api";
 
 export default function App() {
-  const [token, setToken] = useState(() => localStorage.getItem("qlub_token"));
+  return <Login><Dashboard /></Login>;
+}
+
+function Dashboard() {
   const [route, setRoute] = useState("overview");
   const [restaurants, setRestaurants] = useState([]);
   const [neighborhoods, setNeighborhoods] = useState([]);
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    if (!token) return;
     setLoading(true);
     Promise.all([api.restaurants(), api.neighborhoods()])
       .then(([r, n]) => {
@@ -30,12 +32,7 @@ export default function App() {
       })
       .catch((e) => console.error("data load", e))
       .finally(() => setLoading(false));
-  }, [token]);
-
-  const onLogout = () => {
-    localStorage.removeItem("qlub_token");
-    setToken(null);
-  };
+  }, []);
 
   // ---- Exports ----
   const exportOverviewPdf = useCallback(() => {
@@ -120,14 +117,10 @@ export default function App() {
   }, []);
 
   // ---- Render ----
-  if (!token) {
-    return <Login onAuthed={(t) => setToken(t)} />;
-  }
-
   const content = (() => {
     if (loading)
       return (
-        <div className="flex items-center justify-center h-[60vh]">
+        <div className="flex items-center justify-center h-[60vh]" data-testid="dashboard-loading">
           <div className="font-mono text-sm text-qlub-ink/60 flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-qlub-emerald animate-pulse" />
             loading LA intel ...
@@ -164,10 +157,10 @@ export default function App() {
 
   return (
     <div className="App min-h-screen bg-qlub-paper" data-testid="app-shell">
-      <Sidebar active={route} onSelect={setRoute} onLogout={onLogout} />
+      <Sidebar active={route} onSelect={setRoute} />
 
-      <main className="pl-[280px]" data-testid="main-content">
-        <div className="px-8 py-8 max-w-[1600px] mx-auto">
+      <main className="lg:pl-[280px]" data-testid="main-content">
+        <div className="px-4 sm:px-8 py-8 max-w-[1600px] mx-auto">
           <AnimatePresence mode="wait">
             <motion.div
               key={route}
@@ -179,7 +172,7 @@ export default function App() {
               {content}
             </motion.div>
           </AnimatePresence>
-          <footer className="mt-14 pt-6 border-t border-qlub-line flex justify-between items-center font-mono text-[10px] uppercase tracking-widest text-qlub-text-muted">
+          <footer className="mt-14 pt-6 border-t border-qlub-line flex flex-wrap gap-3 justify-between items-center font-mono text-[10px] uppercase tracking-widest text-qlub-text-muted">
             <span>qlub · la market intelligence · v0.9.2</span>
             <span>nyu · stern research · 2026.01</span>
           </footer>

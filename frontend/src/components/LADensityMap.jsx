@@ -80,12 +80,17 @@ export default function LADensityMap({ neighborhoods = [], onSelect }) {
           onMouseEnter={() => setHover(p.name)}
           onMouseLeave={() => setHover(null)}
           onClick={() => onSelect?.(p)}
-          className="absolute flex flex-col items-center group"
-          style={{ left: `${p.x}%`, top: `${p.y}%`, transform: "translate(-50%, -100%)" }}
+          className="absolute flex flex-col items-center group w-max max-w-[140px]"
+          style={{
+            left: `clamp(76px, ${p.x}%, calc(100% - 76px))`,
+            top: `${p.y}%`,
+            x: "-50%",
+            y: "-100%",
+          }}
           data-testid={`map-pin-${p.name.toLowerCase().replace(/\s+/g, "-")}`}
         >
           <div
-            className="bg-white/95 backdrop-blur-sm border border-qlub-line rounded-lg shadow-soft px-2.5 py-1 min-w-[68px]"
+            className="bg-white/95 backdrop-blur-sm border border-qlub-line rounded-lg shadow-soft px-2.5 py-1 min-w-[68px] max-w-full"
             style={{
               transform: hover === p.name ? "translateY(-3px)" : "none",
               transition: "transform .15s ease",

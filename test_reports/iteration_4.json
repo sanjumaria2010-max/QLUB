@@ -1,0 +1,54 @@
+{
+  "summary": "Executed backend + frontend regression for one-button welcome flow on public preview URL. Backend public APIs passed (8/8). Frontend validated: login screen has exactly one enabled Login button, no email/password fields, keyboard Enter login works, no /api/auth/login calls, no Authorization headers, sessionStorage reload persistence works, invalid qlub_token ignored, blocked sessionStorage get/set still allows welcome + entry, all five sections navigate, Expo search/filter and VoC filters smoke pass, mobile nav toggle behavior works. Remaining issue: LA map pin descendants still render outside viewport bounds on mobile though document-level horizontal scrolling is fixed.",
+  "backend_issues": {
+    "critical": [],
+    "minor": []
+  },
+  "frontend_issues": {
+    "ui_bugs": [
+      {
+        "component": "LADensityMap",
+        "issue": "On mobile 390x844, multiple map pin descendants render beyond viewport right edge (e.g., Pasadena/Highland Park/Chinatown pins), despite container clipping.",
+        "selector": "[data-testid^=\"map-pin-\"]",
+        "priority": "MEDIUM"
+      }
+    ],
+    "integration_issues": [],
+    "design_issues": [
+      {
+        "screen": "Overview mobile map (390x844)",
+        "issues": [
+          "Pin label wrappers with min width and centered translate positioning can overflow visual viewport near map edges.",
+          "Document horizontal scroll is no longer present (doc/body scrollWidth equals viewport width), so issue is now localized to map-pin rendering bounds."
+        ]
+      }
+    ]
+  },
+  "test_report_links": [
+    "/app/backend/tests/test_public_dashboard_noauth.py",
+    "/app/test_reports/pytest/pytest_results.xml"
+  ],
+  "action_items": [
+    "Clamp pin label positions at map edges in LADensityMap so pin wrappers cannot render beyond viewport (especially right edge).",
+    "Apply minimal edge-aware offset/anchor logic for labels near boundaries (e.g., switch from centered to left/right anchored when x is near 0% or 100%).",
+    "Retest mobile map at 390x844 after pin-boundary fix to confirm no out-of-viewport descendants remain."
+  ],
+  "critical_code_review_comments": [
+    "LADensityMap uses absolute pins with transform: translate(-50%, -100%) plus min-w label blocks; edge pins can exceed viewport bounds even when shell overflow is fixed.",
+    "Frontend API layer still exposes api.login helper, but tested flows correctly avoid invoking /api/auth/login under the new one-button welcome step.",
+    "No token/Authorization coupling observed in dashboard data fetches; public API integration remains aligned with no-auth welcome behavior."
+  ],
+  "updated_files": [
+    "/app/backend/tests/test_public_dashboard_noauth.py",
+    "/app/test_reports/iteration_4.json"
+  ],
+  "success_rate": {
+    "backend": "100% (8/8)",
+    "frontend": "96% (all requested flows pass; mobile map-pin edge overflow remains)"
+  },
+  "seed_data_creation": "None",
+  "retest_needed": true,
+  "should_main_agent_self_test": true,
+  "context_for_next_testing_agent": "Artifacts generated in /app/test_reports/artifacts_iteration_4. Desktop and mobile one-button welcome validations passed, including blocked sessionStorage scenario and invalid legacy qlub_token scenario in fresh contexts. Mobile overflow metrics: viewport=390, doc_scroll_width=390, body_scroll_width=390, horizontal_scroll=false. Remaining offenders are map pin descendants near right edge (e.g., map-pin-pasadena right=435, map-pin-highland-park right=410, map-pin-chinatown right=400).",
+  "rca of the issue": "Repro: open app on mobile 390x844 -> Login -> Overview -> inspect LA map pins. Root cause: pin wrapper is centered at projected x coordinate and label card has fixed min width; near-edge neighborhoods exceed viewport despite map container clipping. Mitigation: introduce edge-aware pin anchoring/clamping logic for x positions close to map boundaries and/or responsive label width constraints."
+}

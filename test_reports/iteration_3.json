@@ -1,0 +1,55 @@
+{
+  "summary": "Validated auth-removal public flow on external preview URL. Fresh browser loads Overview directly with no login UI, no /api/auth/login network calls, and no qlub_token creation. Reload remains accessible, and invalid legacy qlub_token does not block access. Backend public-data regression tests passed (7/7). All five sidebar pages navigate correctly; Expo search/filters and VoC filters work without triggering paid live AI endpoints. Desktop 1920x800 is stable. Mobile 390x844 remains unusable due to non-responsive shell (fixed 280px sidebar plus main left padding 280px), producing horizontal overflow.",
+  "backend_issues": {
+    "critical": [],
+    "minor": []
+  },
+  "frontend_issues": {
+    "ui_bugs": [
+      {
+        "component": "App shell layout (App.js + Sidebar)",
+        "issue": "Mobile viewport is functionally broken: sidebar is fixed at 280px and main content always has pl-[280px], leaving extremely narrow content area and forcing horizontal overflow.",
+        "selector": "[data-testid=\"sidebar\"], [data-testid=\"main-content\"]",
+        "priority": "HIGH"
+      }
+    ],
+    "integration_issues": [],
+    "design_issues": [
+      {
+        "screen": "Mobile 390x844 (Overview and shell)",
+        "issues": [
+          "Horizontal overflow present (doc/body scroll width ~583 on viewport 390).",
+          "Dashboard reading/interaction area is heavily constrained by permanent 280px sidebar occupying most width.",
+          "Full-width desktop composition does not adapt for handset usage."
+        ]
+      }
+    ]
+  },
+  "test_report_links": [
+    "/app/backend/tests/test_public_noauth_access.py",
+    "/app/test_reports/pytest/pytest_results.xml"
+  ],
+  "action_items": [
+    "Implement minimal responsive shell: keep desktop fixed sidebar + pl-[280px], but on small screens use off-canvas/collapsible sidebar and set main content padding-left to 0 (e.g., mobile: pl-0, lg+: pl-[280px]).",
+    "Add a mobile nav trigger (hamburger) to open/close sidebar; keep current desktop behavior unchanged.",
+    "Re-test at 390x844 after shell fix for remaining Overview overflow hotspots."
+  ],
+  "critical_code_review_comments": [
+    "App.js hardcodes main layout to pl-[280px] for all breakpoints; this is the direct root cause of mobile unusability.",
+    "Sidebar.jsx hardcodes fixed width w-[280px] with fixed positioning for all breakpoints; no responsive escape path is implemented.",
+    "No auth gate references are observed in current App shell path; API integration remains public as intended."
+  ],
+  "updated_files": [
+    "/app/backend/tests/test_public_noauth_access.py",
+    "/app/test_reports/iteration_3.json"
+  ],
+  "success_rate": {
+    "backend": "100% (7/7)",
+    "frontend": "~90% (all auth-removal and navigation flows pass; mobile shell responsiveness fails)"
+  },
+  "seed_data_creation": "None",
+  "retest_needed": true,
+  "should_main_agent_self_test": true,
+  "context_for_next_testing_agent": "Playwright run validated: no login screen/password/logout/secured badge; 0 requests to /api/auth/login; localStorage qlub_token remains null on fresh load; invalid token does not block Overview. Verified no paid live AI calls during requested checks (0 requests to /api/voice-of-customer/sync and /api/outreach/generate). Desktop screenshot: /app/test_reports/artifacts_iteration_3/desktop_1920x800.jpg. Mobile screenshot: /app/test_reports/artifacts_iteration_3/mobile_390x844.jpg. Mobile metrics captured: sidebar_w=280, main_padding_left=280px, doc_scroll_w=583 on viewport 390.",
+  "rca of the issue": "Repro: open app at 390x844 -> sidebar stays fixed at 280px while main retains 280px left padding -> content gets compressed to a narrow strip and page overflows horizontally. Root cause: desktop shell classes are unconditional (Sidebar width fixed + App main pl-[280px]) without breakpoint-specific overrides. Mitigation: apply responsive class split (mobile pl-0 + hidden/off-canvas sidebar, desktop pl-[280px] + fixed sidebar)."
+}

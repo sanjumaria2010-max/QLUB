@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "motion/react";
-import { LayoutDashboard, Target, MessageSquareText, Store, LineChart, LogOut, ShieldCheck, BookOpen, FileDown } from "lucide-react";
+import { LayoutDashboard, Target, MessageSquareText, Store, LineChart, BookOpen, FileDown, Menu, X } from "lucide-react";
 import QlubLogo from "./QlubLogo";
+import { Button } from "./ui/button";
 
 const NAV = [
   { id: "overview", label: "Qlub Overview", icon: LayoutDashboard },
@@ -11,20 +12,38 @@ const NAV = [
   { id: "insights", label: "Marketing Insights", icon: LineChart },
 ];
 
-export default function Sidebar({ active, onSelect, onLogout }) {
+export default function Sidebar({ active, onSelect }) {
+  const [mobileOpen, setMobileOpen] = useState(false);
+
   return (
     <aside
-      className="fixed left-0 top-0 bottom-0 w-[280px] bg-white border-r border-qlub-line flex flex-col z-20"
+      className="relative lg:fixed left-0 top-0 bottom-0 w-full lg:w-[280px] bg-white border-b lg:border-r border-qlub-line flex flex-col z-20"
       data-testid="sidebar"
     >
       {/* Brand */}
-      <div className="px-6 pt-7 pb-6 border-b border-qlub-line">
+      <div className="px-6 pt-7 pb-6 border-b border-qlub-line flex items-center justify-between gap-3">
+        <div>
         <QlubLogo />
         <div className="mt-3 font-display font-semibold text-[10.5px] tracking-[0.26em] uppercase text-qlub-text-muted">
           LA Intelligence Unit
         </div>
+        </div>
+        <Button
+          type="button"
+          variant="ghost"
+          size="icon"
+          className="lg:hidden shrink-0"
+          aria-label={mobileOpen ? "Close navigation" : "Open navigation"}
+          aria-expanded={mobileOpen}
+          aria-controls="sidebar-navigation"
+          onClick={() => setMobileOpen((open) => !open)}
+          data-testid="mobile-nav-toggle"
+        >
+          {mobileOpen ? <X /> : <Menu />}
+        </Button>
       </div>
 
+      <div id="sidebar-navigation" className={`${mobileOpen ? "flex" : "hidden"} lg:flex flex-1 flex-col min-h-0 overflow-y-auto`}>
       {/* Nav */}
       <nav className="flex-1 px-4 py-6 space-y-1.5" aria-label="Primary">
         {NAV.map((item, i) => {
@@ -36,7 +55,7 @@ export default function Sidebar({ active, onSelect, onLogout }) {
               initial={{ opacity: 0, x: -8 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.04 * i, duration: 0.25 }}
-              onClick={() => onSelect(item.id)}
+              onClick={() => { onSelect(item.id); setMobileOpen(false); }}
               data-testid={`nav-${item.id}`}
               className={`nav-pill ${isActive ? "nav-pill-active" : ""}`}
             >
@@ -47,18 +66,8 @@ export default function Sidebar({ active, onSelect, onLogout }) {
         })}
       </nav>
 
-      {/* Secured footer card */}
+      {/* Product guide */}
       <div className="px-4 pb-4 pt-2">
-        <div className="rounded-2xl p-4 bg-[#f5ecff] border border-qlub-purple-200">
-          <div className="flex items-center gap-2 font-display font-black text-[11px] tracking-[0.18em] uppercase text-qlub-purple">
-            <ShieldCheck className="w-3.5 h-3.5" />
-            Qlub Secured
-          </div>
-          <p className="mt-1.5 text-[11.5px] leading-snug text-qlub-text-muted">
-            Enterprise-grade encryption for Qlub executive strategy.
-          </p>
-        </div>
-
         {/* How to use deck */}
         <div className="mt-3 flex gap-2">
           <a
@@ -83,14 +92,7 @@ export default function Sidebar({ active, onSelect, onLogout }) {
           </a>
         </div>
 
-        <button
-          onClick={onLogout}
-          className="w-full mt-3 flex items-center justify-center gap-2 px-3 py-2 rounded-xl border border-qlub-line hover:border-qlub-purple hover:text-qlub-purple text-qlub-text-muted font-display font-bold uppercase text-[11px] tracking-[0.16em] transition"
-          data-testid="logout-button"
-        >
-          <LogOut className="w-3.5 h-3.5" />
-          Sign Out
-        </button>
+      </div>
       </div>
     </aside>
   );
